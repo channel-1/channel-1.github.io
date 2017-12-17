@@ -1,0 +1,12 @@
+//os_id = 0
+//goods_list.size() = 1
+//result.goods.size() = 1
+var rtg_page_13573=2;
+show_time_13573=1513537356; if(!akg){var akg=Array();}
+akg[13573]='4aaabef86d89a5b4e40effe3ab59dddd';
+if(!rtgeo){var rtgeo='*/*/*';}
+rtgeo='BY/*/*';
+var rt_page_offset_13573 = 0;
+var rt_goods_13573=1;
+var news_teasers_13573 = [1239829];
+AddGood(1239829,'Несчастью Волочковой сочувствует вся страна!','Балерина уже купила инвалидное кресло...','0.00','$','http://smiru.net/show-business/34251-posle-insulta-volochkova-pokupaet-invalidnoe-kreslo.html', 13573, 'aafa321e68d44ea15e59daba82a4f698', '0.00', false, 15858);
