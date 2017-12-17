@@ -1,0 +1,2272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#" xml:lang="ru_RU" lang="ru_RU"><head>
+	<meta name="Author" content="Информационное агентство 'Центр медиа'">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="language" content="ru">
+    <script type="text/javascript" async="" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/watch.js"></script><script type="text/javascript" async="" charset="UTF-8" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/a_002.js"></script><script async="" type="text/javascript" charset="utf-8" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/ticker_13573.js"></script><script async="" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/analytics.js"></script><script type="text/javascript" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/jquery_003.js"></script>
+	<script src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/jquery_004.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/uploadify.css">
+    <link rel="stylesheet" type="text/css" href="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/jquery-ui.css">
+    <script type="text/javascript" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/jquery-ui.js"></script>	
+    <link rel="stylesheet" type="text/css" href="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/fonts.css">	
+    <link rel="stylesheet" type="text/css" href="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/jquery.css">
+    <link rel="stylesheet" type="text/css" href="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/site.css">
+    <script type="text/javascript">
+        var url = "http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.html";
+        var title = "86-летняя одесситка занимается йогой и садится на шпагат";
+        function addFavorite(a) {
+            try {
+                window.external.AddFavorite(url, title);
+            }
+            catch (e) {
+                try {
+                    window.sidebar.addPanel (title, url, "");
+                }
+                catch (e) {
+                    if (typeof(opera)=="object") {
+                        a.rel = "sidebar";
+                        a.title = title;
+                        a.url = url;
+                        return true;
+                    }
+                    else {
+                        alert("У вас браузер Chrome. Нажмите Ctrl+D");
+                    }
+                }
+            }
+            return false;
+        }
+    </script>
+	<link rel="alternate" type="application/rss+xml" href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrss/articles.xml" title="Статьи">
+	<link rel="alternate" type="application/rss+xml" href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrss/news.xml" title="Новости">
+	<link rel="alternate" type="application/rss+xml" href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrss/edition.xml" title="От редакции">
+	<link rel="alternate" type="application/rss+xml" href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrss/community.xml" title="Сообщества">
+	<link rel="alternate" type="application/rss+xml" href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrss/users.xml" title="Пользователи соц. сети">
+    <link rel="shortcut icon" href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmltools/images/favicon.png" type="image/x-icon">
+	<meta name="geo.placename" content="Одесса, Одесская область, Украина">
+	<meta name="geo.position" content="46.4825260;30.7233100">
+	<meta name="geo.region" content="UA-Одесская область">
+	<meta name="ICBM" content="46.4825260, 30.7233100">
+	<meta name="title" content="86-летняя одесситка занимается йогой и садится на шпагат">
+<meta name="description" content="Рея Николаевна Малинина, 86-летняя ветеран из Одессы, вот уже 15 лет занимается йогой">
+<meta name="keywords" content="рея малинина, спорстменка, йога, одесситка, спорт">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Портал napensii.ua">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/3279-86-letnyaya-odessitka-zanimaetsya-yogoy-i-saditsya-na-shpagat">
+<meta property="og:title" content="86-летняя одесситка занимается йогой и садится на шпагат">
+<meta property="og:description" content="Рея Николаевна Малинина, 86-летняя ветеран из Одессы, вот уже 15 лет занимается йогой">
+<meta property="og:image" content="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmltools/images/pages/Bezymyannyy.jpg_4239_33_1431677399.jpg">
+<meta property="og:image:width" content="486">
+<meta property="og:image:height" content="369">
+<script type="text/javascript" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/jquery.js"></script>
+<title>86-летняя одесситка занимается йогой и садится на шпагат</title>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-52766008-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+<script type="text/javascript" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/cm.js" async=""></script><style type="text/css">.join_informer_3353 { clear: none !important; }</style><style type="text/css">#CNM3784 .NMg{position:relative;} #CNM3784 .NMg td{white-space:normal!important;}#CNM3784 .NMjG{text-align:center;}#CNM3784 .NMjG a:hover img{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=75);-moz-opacity:0.75;-khtml-opacity:0.75;opacity:0.75;border:0px!important;}#CNM3784 .NMjG a img{margin:auto!important;border:0px!important;}#CNM3784 .NMjG a{text-decoration:none;}#CNM3784 .NMiG{vertical-align:top;margin:auto;border:0px!important;padding:5px!important;}#CNM3784 .NM_blG1{float:left;}#CNM3784 .NMg{border-spacing:0px;width:100%!important;background-color:transparent!important;border:0px!important;}#CNM3784 .NMg td{white-space:normal!important;}#CNM3784 .NMj{text-align:center;}#CNM3784 .NMj a:hover img{filter:progid:DXImageTransform.Microsoft.Alpha(opacity=75);-moz-opacity:0.75;-khtml-opacity:0.75;opacity:0.75;border:0px!important;}#CNM3784 .NMj a img{margin:auto!important;border:0px!important;}#CNM3784 .NMj a{text-decoration:none;}#CNM3784 .NMi{vertical-align:top;margin:auto;border:0px!important;padding:5px!important;}#CNM3784 .NMg{max-width:575px;border-spacing:2px;}#CNM3784 tbody tr td{width:33%;}#CNM3784 .NMi,#CNM3784 .NMiG{border:1px solid #0093dd!important;padding:5px;}#CNM3784 .NMj,#CNM3784 .NMjG{text-align:center;}#CNM3784 .NMk,#CNM3784 .NMkG{width:160px;margin:0 auto;overflow:hidden;text-align:left;vertical-align:top;height:45px;line-height:15px;}#CNM3784 .NMk a,#CNM3784 .NMkG a{font-style:italic;font-family:Arial;font-size:13px;color:#0093dd;text-decoration:none!important;font-weight:bolder!important;}#CNM3784 .NMl{width:160px;margin:0 auto;overflow:hidden;text-align:left;vertical-align:top;height:32px;line-height:15px;}#CNM3784 .NMl a{font-family:Arial;font-size:13px;color:#000;text-decoration:none!important;font-weight:normal!important;}#CNM3784 .NMm a{font-weight:bolder!important;font-style:italic;font-family:Arial;font-size:15px;color:#fff;text-decoration:none!important;}#CNM3784 .NMm{padding:3px;text-align:center;margin:0 auto;width:160px;background:#0093dd;color:#fff;height:21px;line-height:14px;overflow:hidden;text-shadow:#0093dd 1px 1px,#0093dd 2px 2px,#0093dd 3px 3px,#0093dd 4px 4px,#0093dd 5px 5px,#0093dd 6px 6px,#0093dd 7px 7px,#0093dd 8px 8px,#0093dd 9px 9px,#0093dd 10px 10px,#0093dd 11px 11px,#0093dd 12px 12px,#0093dd 13px 13px,#0093dd 14px 14px,#0093dd 15px 15px,#0093dd 16px 16px,#0093dd 17px 17px,#0093dd 18px 18px,#0093dd 19px 19px,#0093dd 20px 20px,#0093dd 21px 21px,#0093dd 22px 22px,#0093dd 23px 23px,#0093dd 24px 24px,#0093dd 25px 25px,#0093dd 26px 26px,#0093dd 27px 27px,#0093dd 28px 28px,#0093dd 29px 29px,#0093dd 30px 30px,#0093dd 31px 31px,#0093dd 32px 32px,#0093dd 33px 33px,#0093dd 34px 34px,#0093dd 35px 35px,#0093dd 36px 36px,#0093dd 37px 37px,#0093dd 38px 38px,#0093dd 39px 39px;}</style><style type="text/css">.rt_clear{clear:both}.rt_label_13573{display:block!important;text-decoration:none!important;width:100px!important;overflow:hidden!important;outline:0!important;;margin:0 0 3px!important;padding:2px!important;height:11px!important;font:11px/11px verdana!important;color:black!important;background:none!important;}.rt_label_13573 span{color:#f11e26!important;}.rt_fixed_13573{position:relative;}.rt_table_13573{width:310px;background-color:transparent!important;border-spacing:5px;border-collapse:separate!important;border:0px solid #dfdfdf!important;border-radius: 0px!important;-moz-border-radius: 0px!important; -webkit-border-radius: 0px!important;padding:0!important;}.rt_td_13573{padding:3px!important;vertical-align:top!important;}.rt_td_13573.highlighted{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAadEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjEwMPRyoQAAAD1JREFUGFcdikEOwDAMwvj/Q6csu21ZFXqhpT5YwgJ6QvXZc4qE6tV9afw6QBkaZZPqhm8btlMGnDd9dsYCUsdIchPvoPEAAAAASUVORK5CYII=")!important;border:2px solid #ea1213!important;}.rt_block_13573{border:0px solid #eeeeee!important;border-radius: 0px;-moz-border-radius: 0px;-webkit-border-radius: 0px;padding: 0px;}.rt_photo_13573{width:200px!important;height:200px;background:#fff;border:0px solid #eeeeee!important;-moz-border-radius: 0px;-webkit-border-radius: 0px;border-radius: 0px;box-shadow:1px 1px 5px rgba(0,0,0,.7)!important;padding:0px;position:relative;}.rt_photo_13573 img{max-width:none!important;width:200px!important;height:200px!important;margin:0px 0 0 0px!important;padding:0!important;}.rt_title_13573_div{line-height:17px;}.rt_title_13573,.rt_title_13573:visited{white-space:normal!important;font-style:normal!important;font-weight:bold!important;font-size:15px!important;line-height:17px!important;font-family:Inherit!important;color:#000000 !important;text-decoration:none !important;text-transform:none !important;background:none!important;padding:0!important;}.rt_title_13573:hover,.rt_title_13573:active{color:#000000!important;text-decoration:none !important;background:none!important;padding:0!important;}.rt_descr_13573_div{margin-top:3px;line-height:14px}.rt_descr_13573{white-space:normal!important;font-style:normal!important;font-weight:normal!important;font-size:12px!important;line-height:14px!important;font-family:Inherit!important; color:#000000 !important; text-decoration:none !important; text-transform:none !important;}.rt_descr_13573:hover{color:#000000 !important; text-decoration:none !important;}.rt_source_13573{text-decoration: none !important; color: #000 !important; font-family: tahoma !important; font-weight: normal !important; font-size: 10px !important; text-transform: none !important; font-style: normal !important;}.rt_photo_13573 .rt_image_13573{display:block !important;width:100% !important;height:100% !important;overflow:hidden !important;background:none!important;margin:0!important;padding:0!important;-moz-border-radius: 0px;-webkit-border-radius: 0px;border-radius: 0px;}.rt_photo_13573 .age_restriction{display:block!important;width:18px!important;height:18px!important;font:10px/18px "Comic Sans MS",tahoma!important;color:#fff!important;text-align:center!important;background:#c81f1f!important;border:1px solid #fff!important;border-radius:11px!important;-moz-border-radius:11px!important;-webkit-border-radius:11px!important;position:absolute!important;bottom:1px!important;right:1px!important;z-index:100!important;overflow:hidden!important}.rt_block_13573{text-align:center!important;}.rt_photo_13573{margin:0 auto 5px!important;}.rt_price_13573{padding-left:5px!important;margin:0 5px!important;}</style><script type="text/javascript" charset="utf-8" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/a"></script><style type="text/css">.ya-share2,
+.ya-share2 * {
+  line-height: normal;
+}
+.ya-share2 :link:hover,
+.ya-share2 :visited:hover {
+  color: #000 !important;
+}
+.ya-share2 input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  line-height: normal;
+}
+.ya-share2__container_size_m {
+  font-size: 13px;
+}
+.ya-share2__container_size_m .ya-share2__icon {
+  height: 24px;
+  width: 24px;
+  background-size: 24px 24px;
+}
+.ya-share2__container_size_m .ya-share2__title {
+  line-height: 24px;
+}
+.ya-share2__container_size_m .ya-share2__item {
+  margin: 5px 4px 5px 0;
+}
+.ya-share2__container_size_m .ya-share2__item:last-child {
+  margin-right: 0;
+}
+.ya-share2__container_size_m .ya-share2__counter {
+  font-size: 12px;
+  line-height: 24px;
+  padding: 0 8px;
+}
+.ya-share2__container_size_m .ya-share2__counter:before {
+  margin-left: -8px;
+}
+.ya-share2__container_size_m .ya-share2__icon_more:before {
+  font-size: 12px;
+  line-height: 24px;
+}
+.ya-share2__container_size_m .ya-share2__popup {
+  padding: 5px 10px;
+}
+.ya-share2__container_size_m .ya-share2__popup_direction_bottom {
+  top: 28px;
+}
+.ya-share2__container_size_m .ya-share2__popup_direction_top {
+  bottom: 28px;
+}
+.ya-share2__container_size_m .ya-share2__input_copy {
+  width: 140px;
+}
+.ya-share2__container_size_m .ya-share2__badge + .ya-share2__title {
+  margin-left: 10px;
+}
+.ya-share2__container_size_s {
+  font-size: 12px;
+}
+.ya-share2__container_size_s .ya-share2__icon {
+  height: 18px;
+  width: 18px;
+  background-size: 18px 18px;
+}
+.ya-share2__container_size_s .ya-share2__title {
+  line-height: 18px;
+}
+.ya-share2__container_size_s .ya-share2__item {
+  margin: 3px 4px 3px 0;
+}
+.ya-share2__container_size_s .ya-share2__item:last-child {
+  margin-right: 0;
+}
+.ya-share2__container_size_s .ya-share2__counter {
+  font-size: 10px;
+  line-height: 18px;
+  padding: 0 6px;
+}
+.ya-share2__container_size_s .ya-share2__counter:before {
+  margin-left: -6px;
+}
+.ya-share2__container_size_s .ya-share2__icon_more:before {
+  font-size: 10px;
+  line-height: 18px;
+}
+.ya-share2__container_size_s .ya-share2__popup {
+  padding: 3px 6px;
+}
+.ya-share2__container_size_s .ya-share2__popup_direction_bottom {
+  top: 21px;
+}
+.ya-share2__container_size_s .ya-share2__popup_direction_top {
+  bottom: 21px;
+}
+.ya-share2__container_size_s .ya-share2__input_copy {
+  width: 110px;
+}
+.ya-share2__container_size_s .ya-share2__badge + .ya-share2__title {
+  margin-left: 6px;
+}
+.ya-share2__list_direction_horizontal > .ya-share2__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ya-share2__list_direction_horizontal > .ya-share2__item > .ya-share2__link > .ya-share2__title {
+  display: none;
+}
+.ya-share2__list_direction_vertical > .ya-share2__item {
+  display: block;
+  margin-right: 0;
+}
+.ya-share2__list_direction_vertical > .ya-share2__item > .ya-share2__link > .ya-share2__badge > .ya-share2__counter {
+  display: none;
+}
+.ya-share2__list {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.ya-share2__item {
+  font-family: Arial, sans;
+  display: inline-block;
+}
+.ya-share2__item:hover {
+  opacity: 0.9;
+}
+.ya-share2__link {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.ya-share2__badge {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 2px;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.ya-share2__icon {
+  display: inline-block;
+  vertical-align: top;
+}
+.ya-share2__icon:active {
+  box-shadow: inset 0 2px 0 0 rgba(0,0,0,0.1);
+}
+.ya-share2__counter {
+  display: none;
+}
+.ya-share2__counter:before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  top: 2px;
+  bottom: 2px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX///+nxBvIAAAAAXRSTlMz/za5cAAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=") 0 0 repeat-y;
+}
+.ya-share2__counter_visible {
+  display: inline-block;
+}
+.ya-share2__title {
+  display: inline-block;
+  color: #000;
+  vertical-align: bottom;
+}
+.ya-share2__title:hover {
+  color: #f00;
+}
+.ya-share2__item_more {
+  position: relative;
+}
+.ya-share2__item_more:hover {
+  opacity: 1;
+}
+.ya-share2__icon_more {
+  background-color: #fff;
+  border: 1px solid #cdcdcd;
+  box-sizing: border-box;
+  position: relative;
+}
+.ya-share2__icon_more:before {
+  content: '•••';
+  color: #a0a0a0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+}
+.ya-share2__popup {
+  position: absolute;
+  display: none;
+  border: 1px solid #e6e6e6;
+  z-index: 9999;
+  background-color: #fff;
+}
+.ya-share2__popup_direction_bottom {
+  box-shadow: 0 10px 20px -5px rgba(0,0,0,0.4);
+}
+.ya-share2__popup_direction_top {
+  box-shadow: 0 0 20px -5px rgba(0,0,0,0.4);
+}
+.ya-share2__popup_list-direction_horizontal {
+  right: 0;
+}
+.ya-share2__popup_list-direction_vertical {
+  left: 0;
+}
+.ya-share2__popup_visible {
+  display: block;
+}
+.ya-share2__popup_clipboard .ya-share2__input_copy,
+.ya-share2__link_copy {
+  display: none;
+}
+.ya-share2__popup_clipboard .ya-share2__link_copy {
+  display: inline-block;
+}
+
+.ya-share2__item_service_blogger .ya-share2__badge
+{
+    background-color: #fb8f3d;
+}
+
+.ya-share2__item_service_blogger .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19.896 14.833A5.167 5.167 0 0 1 14.729 20H9.166A5.167 5.167 0 0 1 4 14.833V9.167A5.166 5.166 0 0 1 9.166 4h2.608a5.167 5.167 0 0 1 5.167 5.167l.002.011c.037.536.484.96 1.03.96l.018-.002h.872c.57 0 1.034.463 1.034 1.034l-.001 3.663zM9.038 10.176h2.926a.993.993 0 0 0 0-1.987H9.038a.994.994 0 0 0 0 1.987zm5.867 3.83H9.032a.94.94 0 0 0 0 1.879h5.873a.94.94 0 1 0 0-1.88z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_collections .ya-share2__badge
+{
+    background-color: #eb1c00;
+}
+
+.ya-share2__item_service_collections .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 18l5-2.71L17 18V6H7v12z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_delicious .ya-share2__badge
+{
+    background-color: #31a9ff;
+}
+
+.ya-share2__item_service_delicious .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 12h8v8H4zm8-8h8v8h-7.984z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_digg .ya-share2__badge
+{
+    background-color: #000;
+}
+
+.ya-share2__item_service_digg .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.555 10.814V14.1h.96s.18.005.18-.222v-3.287h-.96s-.18-.006-.18.222zm8.032 3.065v-3.287h-.96s-.18-.006-.18.222V14.1h.96s.18.006.18-.222zm-5.306 1.32c0 .227-.18.222-.18.222H4V9.497c0-.227.18-.222.18-.222h2.514V7.222c0-.227.18-.222.18-.222h1.408l-.001 8.199zm2.065 0c0 .227-.18.221-.18.221H8.761V9.496c0-.226.18-.221.18-.221h1.406v5.924zm0-7.103c0 .227-.18.222-.18.222H8.76V7.222c0-.227.18-.222.18-.222h1.408l-.001 1.096zm4.827 9.21c0 .228-.18.223-.18.223h-4.1v-1.096c0-.227.18-.222.18-.222h2.513v-.79h-2.694V9.497c0-.227.18-.222.18-.222l4.102.003v8.029zm4.826 0c0 .228-.18.223-.18.223h-4.1v-1.096c0-.227.18-.222.18-.222h2.514v-.79h-2.695V9.497c0-.227.18-.222.18-.222L20 9.279v8.028zm-1.585-3.427v-3.287h-.96s-.18-.006-.18.222V14.1h.96s.18.006.18-.222z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_evernote .ya-share2__badge
+{
+    background-color: #24d666;
+}
+
+.ya-share2__item_service_evernote .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.277 7.109h1.517c.08 0 .16-.08.16-.16V5.313c0-.28.08-.559.159-.758l.04-.12L5.2 7.348l.16-.08c.239-.12.558-.16.917-.16zm11.654-.28c-.12-.638-.479-.917-.838-1.037-.36-.12-.718-.28-1.676-.4-.759-.08-1.557-.12-2.116-.12-.16-.438-.399-.917-1.317-1.156-.638-.16-1.796-.12-2.155-.08-.559.08-.758.319-.918.479-.16.16-.28.598-.28.878v1.556c0 .48-.318.838-.877.838H6.397c-.32 0-.559.04-.758.12-.16.12-.32.28-.4.4-.2.279-.239.598-.239.957 0 0 0 .28.08.798.04.4.479 3.033.878 3.911.16.36.28.48.599.639.718.32 2.354.639 3.152.758.759.08 1.278.32 1.557-.279 0 0 .04-.16.12-.36a6.3 6.3 0 0 0 .28-1.915c0-.04.079-.04.079 0 0 .36-.08 1.557.838 1.876.36.12 1.118.24 1.876.32.678.079 1.197.358 1.197 2.114 0 1.078-.24 1.238-1.397 1.238-.958 0-1.317.04-1.317-.759 0-.598.599-.558 1.078-.558.2 0 .04-.16.04-.52 0-.398.24-.598 0-.598-1.557-.04-2.475 0-2.475 1.956 0 1.796.679 2.115 2.914 2.115 1.756 0 2.354-.04 3.073-2.275.16-.439.479-1.796.678-4.03.16-1.478-.12-5.788-.319-6.866zm-3.033 4.75c-.2 0-.32 0-.519.04h-.08s-.04 0-.04-.04v-.04c.08-.4.28-.878.878-.878.639.04.799.599.799 1.038v.04c0 .04-.04.04-.04.04-.04 0-.04 0-.04-.04-.28-.08-.599-.12-.958-.16z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_facebook .ya-share2__badge
+{
+    background-color: #3b5998;
+}
+
+.ya-share2__item_service_facebook .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.423 20v-7.298h2.464l.369-2.845h-2.832V8.042c0-.824.23-1.385 1.417-1.385h1.515V4.111A20.255 20.255 0 0 0 14.148 4c-2.183 0-3.678 1.326-3.678 3.76v2.097H8v2.845h2.47V20h2.953z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_gplus .ya-share2__badge
+{
+    background-color: #dc4e41;
+}
+
+.ya-share2__item_service_gplus .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.09 11.364v1.745h2.888c-.116.75-.873 2.196-2.887 2.196-1.738 0-3.156-1.44-3.156-3.214 0-1.775 1.418-3.215 3.156-3.215.989 0 1.65.422 2.029.786l1.382-1.331C11.615 7.5 10.465 7 9.09 7A5.087 5.087 0 0 0 4 12.09a5.087 5.087 0 0 0 5.09 5.092c2.94 0 4.888-2.066 4.888-4.975 0-.334-.036-.589-.08-.843H9.091zm10.91 0h-1.455V9.909h-1.454v1.455h-1.455v1.454h1.455v1.455h1.454v-1.455H20' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_linkedin .ya-share2__badge
+{
+    background-color: #0083be;
+}
+
+.ya-share2__item_service_linkedin .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.246 8.954h3.41v10.281h-3.41zm1.725-4.935c-1.167 0-1.929.769-1.929 1.776 0 .987.74 1.777 1.884 1.777h.022c1.19 0 1.93-.79 1.93-1.777-.023-1.007-.74-1.776-1.907-1.776zm10.052 4.715c-1.81 0-2.62.997-3.073 1.698V8.976H9.54c.045.965 0 10.281 0 10.281h3.41v-5.742c0-.307.022-.614.112-.834.246-.613.807-1.25 1.75-1.25 1.233 0 1.727.944 1.727 2.325v5.501h3.41v-5.896c0-3.158-1.683-4.627-3.926-4.627z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_lj .ya-share2__badge
+{
+    background-color: #0d425a;
+}
+
+.ya-share2__item_service_lj .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M17.815 13.3c.438 2.114.868 4.221 1.306 6.336.037.178-.148.385-.334.311-2.025-.741-4.006-1.49-6.01-2.24a.625.625 0 0 1-.318-.23l-7.39-8.903c-.067-.082-.082-.215-.06-.32.312-1.23.72-2.143 1.752-3.019C7.799 4.36 8.779 4.1 10.047 4.004c.156-.015.223.014.312.133 2.418 2.909 4.837 5.817 7.248 8.725a.888.888 0 0 1 .208.438z' fill='%23FFF'/%3E%3Cpath d='M6.175 8.462c.69-1.795 2.3-3.004 3.835-3.301l-.185-.223a4.242 4.242 0 0 0-3.85 3.272l.2.252z' fill='%230D425A'/%3E%3Cpath d='M10.53 5.792c-1.744.326-3.124 1.513-3.851 3.271l.905 1.091c.787-1.78 2.3-2.997 3.836-3.302l-.89-1.06zm2.76 7.827L9.364 8.9a6.119 6.119 0 0 0-1.269 1.87l4.89 5.89c.289-.385.867-2.359.303-3.041zM9.647 8.633l3.947 4.748c.445.542 2.456.327 3.086-.193l-4.756-5.72c-.793.156-1.587.564-2.277 1.165zm7.308 5.045c-.609.46-1.9.735-2.931.527.074.823-.096 1.892-.616 2.745l1.885.712 1.528.564c.223-.378.542-.608.913-.764l-.35-1.692-.43-2.092z' fill='%230D425A'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_moimir .ya-share2__badge
+{
+    background-color: #168de2;
+}
+
+.ya-share2__item_service_moimir .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.889 9.667a1.333 1.333 0 1 0 0-2.667 1.333 1.333 0 0 0 0 2.667zm6.222 0a1.333 1.333 0 1 0 0-2.667 1.333 1.333 0 0 0 0 2.667zm4.77 6.108l-1.802-3.028a.879.879 0 0 0-1.188-.307.843.843 0 0 0-.313 1.166l.214.36a6.71 6.71 0 0 1-4.795 1.996 6.711 6.711 0 0 1-4.792-1.992l.217-.364a.844.844 0 0 0-.313-1.166.878.878 0 0 0-1.189.307l-1.8 3.028a.844.844 0 0 0 .312 1.166.88.88 0 0 0 1.189-.307l.683-1.147a8.466 8.466 0 0 0 5.694 2.18 8.463 8.463 0 0 0 5.698-2.184l.685 1.151a.873.873 0 0 0 1.189.307.844.844 0 0 0 .312-1.166z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_odnoklassniki .ya-share2__badge
+{
+    background-color: #eb722e;
+}
+
+.ya-share2__item_service_odnoklassniki .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23FFF' fill-rule='evenodd'%3E%3Cpath d='M11.674 6.536a1.69 1.69 0 0 0-1.688 1.688c0 .93.757 1.687 1.688 1.687a1.69 1.69 0 0 0 1.688-1.687 1.69 1.69 0 0 0-1.688-1.688zm0 5.763a4.08 4.08 0 0 1-4.076-4.075 4.08 4.08 0 0 1 4.076-4.077 4.08 4.08 0 0 1 4.077 4.077 4.08 4.08 0 0 1-4.077 4.075zM10.025 15.624a7.633 7.633 0 0 1-2.367-.98 1.194 1.194 0 0 1 1.272-2.022 5.175 5.175 0 0 0 5.489 0 1.194 1.194 0 1 1 1.272 2.022 7.647 7.647 0 0 1-2.367.98l2.279 2.28a1.194 1.194 0 0 1-1.69 1.688l-2.238-2.24-2.24 2.24a1.193 1.193 0 1 1-1.689-1.689l2.279-2.279'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_pinterest .ya-share2__badge
+{
+    background-color: #c20724;
+}
+
+.ya-share2__item_service_pinterest .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 9.742c0 1.58.599 2.986 1.884 3.51.21.087.4.003.46-.23.043-.16.144-.568.189-.738.06-.23.037-.31-.133-.512-.37-.436-.608-1.001-.608-1.802 0-2.322 1.74-4.402 4.53-4.402 2.471 0 3.829 1.508 3.829 3.522 0 2.65-1.174 4.887-2.917 4.887-.963 0-1.683-.795-1.452-1.77.276-1.165.812-2.421.812-3.262 0-.752-.405-1.38-1.24-1.38-.985 0-1.775 1.017-1.775 2.38 0 .867.293 1.454.293 1.454L8.69 16.406c-.352 1.487-.053 3.309-.028 3.492.015.11.155.136.22.054.09-.119 1.262-1.564 1.66-3.008.113-.409.647-2.526.647-2.526.32.61 1.254 1.145 2.248 1.145 2.957 0 4.964-2.693 4.964-6.298C18.4 6.539 16.089 4 12.576 4 8.204 4 6 7.13 6 9.742z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_pocket .ya-share2__badge
+{
+    background-color: #ee4056;
+}
+
+.ya-share2__item_service_pocket .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.9 5c1.159 0 2.1.948 2.1 2.117v5.862c0 .108-.008.215-.024.32.016.156.024.314.024.473 0 3.36-3.582 6.085-8 6.085s-8-2.724-8-6.085c0-.159.008-.317.024-.473a2.148 2.148 0 0 1-.024-.32V7.117C4 5.948 4.94 5 6.1 5h11.8zM8.596 9.392L12 12.795l3.404-3.403a1.063 1.063 0 0 1 1.502 1.502l-4.132 4.131c-.21.21-.486.314-.76.311-.284.01-.571-.094-.788-.31l-4.132-4.132a1.063 1.063 0 0 1 1.502-1.502z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_qzone .ya-share2__badge
+{
+    background-color: #f5b53c;
+}
+
+.ya-share2__item_service_qzone .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.367 14.463s-.105.148-.457.299l-.553.222.597 3.273c.062.282.25.983-.082 1.062-.17.04-.307-.067-.395-.121l-.769-.445-2.675-1.545c-.204-.122-.78-.546-1.093-.489-.205.038-.336.127-.483.216l-.77.445-2.39 1.386-.883.508c-.123.06-.301.058-.394-.025-.07-.063-.09-.253-.063-.388l.19-1.004.572-3.02c.047-.2.237-.975.166-1.137-.048-.107-.173-.196-.261-.267l-.61-.565-2.13-1.983c-.189-.153-.345-.345-.533-.496l-.235-.216c-.062-.078-.165-.235-.09-.369.142-.248.974-.218 1.335-.28l2.682-.31.82-.09c.146-.024.299-.004.413-.063.239-.123.51-.809.636-1.087l1.31-2.714c.151-.297.286-.603.431-.896.075-.15.133-.308.305-.356.162-.045.257.105.312.178.177.235.325.685.451.973l1.29 2.853c.104.238.363.964.54 1.074.266.166.858.108 1.227.172l2.841.292c.355.062 1.245.01 1.36.267.076.17-.072.314-.152.394l-.864.814-1.983 1.868c-.185.164-.77.637-.833.858-.04.14.02.414.088.722-.096-.001-.39-.007-1.182-.029-.63-.007-2.616-.17-2.713-.178l-.84-.076c-.14-.023-.326.012-.4-.076v-.02c1.727-1.168 3.407-2.416 5.142-3.578l-.006-.044c-.146-.072-.359-.059-.54-.095-.385-.077-.79-.078-1.208-.147-.75-.124-1.59-.114-2.434-.114-1.172 0-2.329.03-3.35.21-.45.079-.894.095-1.309.197-.172.042-.358.03-.49.108l.007.012c.1.027.253.02.381.02l.928.019.808.025.813.032.591.032c.486.075 1.007.036 1.475.114.404.068.804.065 1.182.14.113.022.245.015.33.064v.006c-.039.094-.336.255-.432.318l-1.055.743-2.256 1.62-1.417.992c.003.048.024.035.045.061 1.15.167 2.52.258 3.77.262 1.298.005 2.465-.094 3.118-.193.561-.086 1.082-.147 1.653-.287.325-.08.521-.148.521-.148z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_reddit .ya-share2__badge
+{
+    background-color: #ff4500;
+}
+
+.ya-share2__item_service_reddit .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16.542 10.63c-1.105-.636-2.494-1.033-4.025-1.118l.808-2.393 2.182.637c0 .963.78 1.742 1.743 1.742.964 0 1.758-.779 1.758-1.742C19.008 6.78 18.214 6 17.25 6c-.609 0-1.148.326-1.459.793l-2.65-.764a.482.482 0 0 0-.61.311l-1.063 3.172c-1.516.085-2.905.482-4.01 1.119a1.987 1.987 0 0 0-1.46-.623A1.995 1.995 0 0 0 4 12.004c0 .75.425 1.403 1.035 1.742-.029.17-.043.34-.043.51 0 2.62 3.146 4.744 7.015 4.744 3.855 0 7-2.124 7-4.744 0-.17-.013-.34-.042-.51A1.974 1.974 0 0 0 20 12.004a1.995 1.995 0 0 0-1.998-1.996c-.581 0-1.091.24-1.46.623zM9.499 12.5a1.01 1.01 0 0 1 1.006 1.006.998.998 0 0 1-1.006.991.986.986 0 0 1-.992-.991c0-.553.439-1.006.992-1.006zm5.002 0a.998.998 0 0 0-.992 1.006c0 .552.44.991.992.991a.998.998 0 0 0 1.006-.991 1.01 1.01 0 0 0-1.006-1.006zm-5.3 3.597a.484.484 0 0 1-.085-.694c.156-.226.482-.255.694-.085.567.44 1.474.68 2.197.68.709 0 1.616-.24 2.197-.68a.484.484 0 0 1 .694.085.496.496 0 0 1-.085.694c-.737.58-1.885.907-2.806.907-.935 0-2.07-.326-2.806-.907zm8.05-7.59c-.411 0-.752-.34-.752-.75 0-.426.34-.752.751-.752s.752.326.752.751c0 .41-.34.75-.752.75z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_renren .ya-share2__badge
+{
+    background-color: #1760a7;
+}
+
+.ya-share2__item_service_renren .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.019 15.562l-.001-.003-.018.002a.055.055 0 0 0 .019.001zM7.71 12.398l.146-.68c.048-.205.03-.452.03-.692V9.812L7.88 8c-.139 0-.278.043-.393.076-.358.102-.666.201-.962.352-1.158.59-2.022 1.565-2.387 2.944-.343 1.297-.007 2.652.522 3.507.118.19.269.48.44.61.135-.02.272-.15.375-.217a6.06 6.06 0 0 0 .622-.452l.24-.229c.63-.506 1.075-1.346 1.373-2.193zm4.276 3.164h.02a.382.382 0 0 0-.019-.003v.003zm-3.01-.888l-.258-.575-.088-.264H8.62l-.264.498c-.176.288-.358.574-.557.839a6.5 6.5 0 0 1-.85.944l-.517.422.012.024.287.14c.206.091.43.173.657.235.788.217 1.811.177 2.545-.053.178-.055.643-.194.739-.305v-.017c-.177-.092-.324-.254-.47-.381a5.573 5.573 0 0 1-1.225-1.507zm10.884-3.302c-.365-1.379-1.23-2.354-2.387-2.944-.296-.15-.604-.25-.962-.352-.115-.033-.254-.077-.393-.076l-.005 1.812v1.214c0 .24-.019.487.029.692l.147.68c.297.847.741 1.687 1.372 2.193l.24.23c.196.164.402.309.622.45.103.067.24.198.375.218.171-.13.322-.42.44-.61.529-.855.865-2.21.522-3.507zm-3.66 3.8c-.2-.265-.381-.55-.557-.839l-.264-.498h-.011l-.088.264-.258.575a5.576 5.576 0 0 1-1.226 1.507c-.145.127-.292.29-.469.38v.018c.096.111.561.25.739.305.734.23 1.757.27 2.545.053a4.85 4.85 0 0 0 .657-.234l.287-.141a1.31 1.31 0 0 0 .012-.024l-.516-.422a6.5 6.5 0 0 1-.85-.944zm-1.653-2.727c.068-.192.097-.402.146-.61.05-.21.024-.484.024-.727V9.753l-.006-1.741c-.015-.008-.02-.01-.047-.012-.197.047-.326.05-.592.14-.357.102-.685.275-.985.44-.289.16-.53.388-.78.587-.097.077-.199.19-.308.312l.01.01a1.19 1.19 0 0 0-.01.012l.36.47c.232.359.445.763.581 1.213.326 1.079.182 2.411-.235 3.273a4.9 4.9 0 0 1-.445.75l-.258.323a.018.018 0 0 1-.003.007c.004.007.01.016.012.022h.008c.395-.215.686-.574 1.027-.844.189-.15.354-.35.504-.54.404-.514.755-1.046.997-1.73zm-2.55 3.085l-.259-.323a4.903 4.903 0 0 1-.445-.75c-.417-.862-.561-2.194-.235-3.273.136-.45.35-.854.58-1.214L12 9.501l-.01-.011.01-.01a2.791 2.791 0 0 0-.308-.313c-.25-.2-.491-.427-.78-.586-.3-.166-.628-.339-.985-.44-.266-.09-.395-.094-.592-.141-.026.001-.032.004-.047.012l-.006 1.741v1.355c0 .243-.026.517.024.727.049.208.078.418.146.61.242.684.593 1.216.997 1.73.15.19.315.39.505.54.34.27.63.629 1.026.844h.008c.001-.006.008-.015.012-.022a.019.019 0 0 1-.003-.007z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_sinaWeibo .ya-share2__badge
+{
+    background-color: #c53220;
+}
+
+.ya-share2__item_service_sinaWeibo .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EsinaWeibo%3C/title%3E%3Cpath d='M10.266 14.696c-.103.421.55.447.64.063.037-.191-.103-.332-.282-.332-.167 0-.333.128-.358.269zm-.128.945c.102-.498-.307-.869-.793-.843-.46.038-.843.358-.92.754-.115.511.307.882.793.844.46-.026.843-.345.92-.755zm3.797-3.157c-1.586-.997-3.707-1.01-5.42-.447-.857.28-1.764.818-2.301 1.495-.627.793-.882 1.815-.23 2.8.958 1.431 3.413 2.033 5.675 1.508 1.33-.307 2.749-1.048 3.35-2.326.562-1.177-.052-2.378-1.074-3.03zm-3.17.498c.945.167 1.7.755 1.827 1.739.243 1.854-2.173 3.336-4.026 2.327a1.933 1.933 0 0 1-.742-2.723c.435-.767 1.266-1.266 2.148-1.355a2.75 2.75 0 0 1 .793.012zm6.11-.37c-.268-.18-.538-.281-.856-.383-.308-.103-.359-.154-.243-.46.076-.218.14-.41.166-.666.14-1.15-.793-1.495-1.854-1.406-.498.039-.92.167-1.355.307-.281.09-.806.384-.92.205-.064-.09.013-.23.038-.32.166-.626.23-1.496-.384-1.88-.447-.28-1.227-.204-1.7-.038-2.556.87-6.455 4.552-5.663 7.479.18.664.55 1.163.908 1.521 1.061 1.061 2.71 1.65 4.231 1.866 1.112.154 2.263.14 3.375-.064 1.815-.332 3.554-1.15 4.679-2.607.754-.972.997-2.352 0-3.235a3.334 3.334 0 0 0-.422-.319zm1.623-3.682c.652 1.483-.064 2.148.166 2.66.192.421.767.46 1.023.14.191-.243.294-.959.307-1.278a4.193 4.193 0 0 0-1.125-3.12c-.984-1.073-2.276-1.444-3.694-1.303-.256.025-.46.064-.601.217-.332.358-.166.882.294.959.384.063 1.342-.23 2.416.396.498.307.971.792 1.214 1.33zm-3.45-.562c-.282.345-.078.87.408.856.294-.012.358-.05.677.051.307.103.626.448.64.857.025.268-.282.895.32 1.061a.523.523 0 0 0 .536-.166c.115-.128.166-.371.192-.575.089-.857-.333-1.598-1.01-2.02-.384-.23-1.445-.46-1.764-.064z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_skype .ya-share2__badge
+{
+    background-color: #00aff0;
+}
+
+.ya-share2__item_service_skype .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19.537 13.698c.115-.52.176-1.06.176-1.614 0-4.155-3.415-7.524-7.63-7.524-.444 0-.88.038-1.304.11A4.444 4.444 0 0 0 8.425 4C5.981 4 4 5.954 4 8.364c0 .805.222 1.56.608 2.207a7.428 7.428 0 0 0-.155 1.513c0 4.156 3.416 7.4 7.63 7.4.477 0 .944-.044 1.397-.126.623.33 1.335.642 2.092.642 2.444 0 4.425-1.953 4.425-4.364 0-.695-.166-1.354-.46-1.938zm-3.974 1.457c-.294.418-.725.747-1.293.984-.567.238-1.239.356-2.016.356-.933 0-1.702-.162-2.308-.486a2.986 2.986 0 0 1-1.047-.934c-.268-.39-.403-.768-.403-1.137 0-.213.08-.395.242-.547a.855.855 0 0 1 .615-.229c.202 0 .373.059.512.178.14.119.26.294.358.527.12.278.25.51.39.695.139.185.336.34.589.46.254.12.587.18 1 .18.566 0 1.027-.12 1.382-.364.354-.243.532-.547.532-.91a.919.919 0 0 0-.287-.702 1.88 1.88 0 0 0-.741-.412 13.21 13.21 0 0 0-1.216-.303c-.678-.146-1.247-.318-1.703-.513-.458-.196-.822-.463-1.09-.8-.269-.34-.403-.759-.403-1.26 0-.48.142-.904.426-1.275.283-.372.693-.658 1.23-.858.537-.2 1.17-.299 1.895-.299.58 0 1.082.066 1.505.198.423.133.774.309 1.053.528.28.22.484.45.612.691.13.24.194.477.194.705 0 .21-.08.4-.241.567a.8.8 0 0 1-.603.252c-.22 0-.386-.05-.5-.151-.114-.101-.237-.266-.37-.495a2.27 2.27 0 0 0-.618-.768c-.241-.184-.627-.276-1.16-.276-.494 0-.893.1-1.196.3-.303.199-.455.44-.455.72 0 .173.053.324.155.45.103.128.245.235.426.326.18.091.363.162.547.214.185.052.49.126.916.225a15.47 15.47 0 0 1 1.446.38c.432.138.8.307 1.103.503.302.198.54.45.709.752.17.302.255.673.255 1.111 0 .525-.148.998-.442 1.417z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_surfingbird .ya-share2__badge
+{
+    background-color: #30baff;
+}
+
+.ya-share2__item_service_surfingbird .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.315 8.49l-.214 1.987-3.436 3.382h-1.826l-.698 1.826v2.523l-2.47-.698 2.846-5.1L4 8.167l5.638.752L6.899 5l7.463 4.027 2.202-2.47h1.02L20 7.631z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_telegram .ya-share2__badge
+{
+    background-color: #64a9dc;
+}
+
+.ya-share2__item_service_telegram .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.92 6.089L4.747 11.555c-.967.388-.962.928-.176 1.168l3.534 1.104 1.353 4.146c.164.454.083.634.56.634.368 0 .53-.168.736-.368.13-.127.903-.88 1.767-1.719l3.677 2.717c.676.373 1.165.18 1.333-.628l2.414-11.374c.247-.99-.378-1.44-1.025-1.146zM8.66 13.573l7.967-5.026c.398-.242.763-.112.463.154l-6.822 6.155-.265 2.833-1.343-4.116z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_tencentWeibo .ya-share2__badge
+{
+    background-color: #53a9d7;
+}
+
+.ya-share2__item_service_tencentWeibo .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.813 6.01a4.397 4.397 0 0 0-4.326 6.121c.087.199.312.29.511.2a.382.382 0 0 0 .206-.51 3.566 3.566 0 0 1-.286-1.668A3.616 3.616 0 0 1 8.76 6.79a3.615 3.615 0 0 1 3.366 3.84 3.615 3.615 0 0 1-4.65 3.218.39.39 0 0 0-.486.263.394.394 0 0 0 .262.485c.315.093.647.152.977.174a4.397 4.397 0 0 0 4.677-4.087A4.398 4.398 0 0 0 8.813 6.01zm-1.348 5.658a1.67 1.67 0 1 0-.46-.655c-.274.27-.565.59-.854.966-1.022 1.315-2.224 3.694-2.148 7.007.006.204.157.484.355.497l.04.002c.213.015.394-.301.391-.516-.064-2.458.6-4.662 1.955-6.423.242-.316.488-.626.72-.878zm12.388 4.106c-1.307-.48-2.302-1.27-2.95-2.352a4.873 4.873 0 0 1-.354-.71.819.819 0 0 0 .337-.36.829.829 0 0 0-.395-1.098.822.822 0 0 0-1.098.392.822.822 0 0 0 .724 1.177c.091.237.218.516.39.81.483.812 1.431 1.912 3.196 2.558a.226.226 0 0 0 .278-.113c0-.006.005-.01.007-.022a.224.224 0 0 0-.135-.282zm-3.767-1.676a2.04 2.04 0 0 1-1.707-3.042 2.039 2.039 0 0 1 2.784-.787 2.04 2.04 0 0 1 .786 2.783 1.92 1.92 0 0 1-.268.378.223.223 0 0 0 .014.314c.09.082.234.074.313-.016a2.489 2.489 0 1 0-4.017-2.89 2.493 2.493 0 0 0 2.08 3.708.224.224 0 0 0 .015-.448z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_tumblr .ya-share2__badge
+{
+    background-color: #547093;
+}
+
+.ya-share2__item_service_tumblr .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.72 7.7h3.699v2.857h-3.7v4.102c0 .928-.01 1.463.087 1.726.098.262.343.534.61.69.355.213.758.32 1.214.32.81 0 1.616-.264 2.417-.79v2.522c-.683.322-1.302.55-1.857.678a7.94 7.94 0 0 1-1.798.195 4.905 4.905 0 0 1-1.724-.276 4.215 4.215 0 0 1-1.438-.79c-.399-.343-.673-.706-.826-1.09-.154-.386-.23-.945-.23-1.676v-5.611H7V8.29c.628-.203 1.357-.496 1.804-.877.45-.382.809-.84 1.08-1.374.272-.534.459-1.214.56-2.039h2.276v3.7z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_twitter .ya-share2__badge
+{
+    background-color: #00aced;
+}
+
+.ya-share2__item_service_twitter .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 7.539a6.56 6.56 0 0 1-1.885.517 3.294 3.294 0 0 0 1.443-1.816 6.575 6.575 0 0 1-2.085.796 3.283 3.283 0 0 0-5.593 2.994A9.32 9.32 0 0 1 5.114 6.6a3.28 3.28 0 0 0 1.016 4.382 3.274 3.274 0 0 1-1.487-.41v.041a3.285 3.285 0 0 0 2.633 3.218 3.305 3.305 0 0 1-1.482.056 3.286 3.286 0 0 0 3.066 2.28A6.585 6.585 0 0 1 4 17.524 9.291 9.291 0 0 0 9.032 19c6.038 0 9.34-5 9.34-9.337 0-.143-.004-.285-.01-.425A6.672 6.672 0 0 0 20 7.538z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_viber .ya-share2__badge
+{
+    background-color: #7b519d;
+}
+
+.ya-share2__item_service_viber .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23FFF' fill-rule='evenodd'%3E%3Cpath d='M18.434 15.574c-.484-.391-1.002-.743-1.511-1.102-1.016-.718-1.945-.773-2.703.38-.426.648-1.021.677-1.644.392-1.718-.782-3.044-1.989-3.821-3.743-.344-.777-.34-1.473.465-2.022.425-.29.854-.634.82-1.268-.045-.828-2.043-3.593-2.832-3.885a1.429 1.429 0 0 0-.984 0C4.373 4.95 3.606 6.48 4.34 8.292c2.19 5.405 6.043 9.167 11.349 11.463.302.13.638.183.808.23 1.208.012 2.623-1.158 3.032-2.318.393-1.117-.438-1.56-1.096-2.093zM12.485 4.88c3.879.6 5.668 2.454 6.162 6.38.045.363-.09.909.426.919.538.01.408-.528.413-.89.045-3.699-3.163-7.127-6.888-7.253-.281.04-.863-.195-.9.438-.024.427.466.357.787.406z'/%3E%3Cpath d='M13.244 5.957c-.373-.045-.865-.222-.953.299-.09.546.458.49.811.57 2.395.538 3.23 1.414 3.624 3.802.057.349-.057.89.532.8.436-.066.278-.53.315-.802.02-2.293-1.936-4.38-4.329-4.669z'/%3E%3Cpath d='M13.464 7.832c-.249.006-.493.033-.585.3-.137.4.152.496.446.544.983.158 1.5.74 1.598 1.725.027.268.195.484.452.454.356-.043.389-.361.378-.664.017-1.106-1.227-2.385-2.289-2.359z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_vkontakte .ya-share2__badge
+{
+    background-color: #48729e;
+}
+
+.ya-share2__item_service_vkontakte .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.785 16.241s.288-.032.436-.194c.136-.148.132-.427.132-.427s-.02-1.304.576-1.496c.588-.19 1.341 1.26 2.14 1.818.605.422 1.064.33 1.064.33l2.137-.03s1.117-.071.587-.964c-.043-.073-.308-.661-1.588-1.87-1.34-1.264-1.16-1.059.453-3.246.983-1.332 1.376-2.145 1.253-2.493-.117-.332-.84-.244-.84-.244l-2.406.015s-.178-.025-.31.056c-.13.079-.212.262-.212.262s-.382 1.03-.89 1.907c-1.07 1.85-1.499 1.948-1.674 1.832-.407-.267-.305-1.075-.305-1.648 0-1.793.267-2.54-.521-2.733-.262-.065-.454-.107-1.123-.114-.858-.009-1.585.003-1.996.208-.274.136-.485.44-.356.457.159.022.519.099.71.363.246.341.237 1.107.237 1.107s.142 2.11-.33 2.371c-.325.18-.77-.187-1.725-1.865-.489-.859-.859-1.81-.859-1.81s-.07-.176-.198-.272c-.154-.115-.37-.151-.37-.151l-2.286.015s-.343.01-.469.161C3.94 7.721 4.043 8 4.043 8s1.79 4.258 3.817 6.403c1.858 1.967 3.968 1.838 3.968 1.838h.957z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.ya-share2__item_service_whatsapp .ya-share2__badge
+{
+    background-color: #65bc54;
+}
+
+.ya-share2__item_service_whatsapp .ya-share2__icon
+{
+    background: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 11.794c0 4.304-3.517 7.794-7.855 7.794a7.87 7.87 0 0 1-3.796-.97L4 20l1.418-4.182a7.714 7.714 0 0 1-1.127-4.024C4.29 7.489 7.807 4 12.145 4S20 7.49 20 11.794zm-7.855-6.553c-3.641 0-6.603 2.94-6.603 6.553 0 1.434.467 2.762 1.258 3.842l-.825 2.433 2.537-.806a6.6 6.6 0 0 0 3.633 1.084c3.642 0 6.604-2.94 6.604-6.553s-2.962-6.553-6.604-6.553zm3.967 8.348c-.049-.08-.177-.128-.37-.223-.192-.095-1.139-.558-1.315-.621-.177-.064-.305-.096-.434.095a10.92 10.92 0 0 1-.61.749c-.112.128-.224.143-.416.048-.193-.096-.813-.297-1.549-.948a5.76 5.76 0 0 1-1.07-1.323c-.113-.191-.013-.295.084-.39.086-.086.192-.223.289-.334.096-.112.128-.191.192-.319s.032-.239-.016-.335c-.048-.095-.433-1.035-.594-1.418-.16-.382-.32-.318-.433-.318-.112 0-.24-.016-.369-.016a.71.71 0 0 0-.513.239c-.177.19-.674.653-.674 1.593s.69 1.848.786 1.976c.096.127 1.332 2.119 3.289 2.884 1.958.764 1.958.51 2.31.477.353-.031 1.14-.461 1.3-.908.16-.446.16-.829.113-.908z' fill='%23FFF' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+</style>
+
+
+<script language = 'javascript'>
+  var delay = 0;
+  setTimeout("document.location.href='http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.html'", delay);
+</script>
+
+ <!--    передача UTM-->
+
+    <script type="text/javascript">
+
+            var param = location.search;
+
+            $(document).ready(function() {
+                $('.priceGeo').each(function() {
+                    $(this).text("всего за 9 гривен для граждан Украины, 550 тенге для жителей Казахстана и 1 лари для жителей Грузии");
+                });
+                $('a').each(function() {
+                    //99 рублей
+                    $(this).attr('href', 'http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.html' + param);
+                });
+            });
+
+
+    </script>
+
+    <!--    передача UTM-->
+
+</head>
+<body>
+		
+		<div class="portlet" id="yw2">
+<div class="portlet-content">
+<div id="header">
+	<!---Slogan---->
+	<div class="top-header">
+		<div class="maket">
+			<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.html" title="Перейти на главную"><i class="fa fa-home slog_ic1"></i></a>
+			<a href="#" title="Добавить в закладки" onclick="return addFavorite(this);"><i class="fa fa-star slog_ic2"></i></a>
+			<div id="headbann">
+			<div class="hdr_adv" style="display: none;"> НА ПЕНСИИ - ЖИЗНЬ ТОЛЬКО НАЧИНАЕТСЯ </div>
+<div class="hdr_adv" style="display: block;"> НА ПЕНСИИ - любимая газета пенсионеров </div>
+<div class="hdr_adv" style="display: none;"> НА ПЕНСИИ - всегда актуальная информация </div>
+<div class="hdr_adv" style="display: none;"> НА ПЕНСИИ - социальная сеть кому за 50 </div>			</div>
+			<a href="javascript:void(0)" title="Написать письмо в редакцию" onclick="redaction_message(1)"><i class="fa fa-envelope slog_ic3"></i></a>
+		</div>
+	</div>
+	<!---end Slogan---->
+    <div class="maket">
+		<div class="fixed">
+			<div class="main-header">
+				<div class="logo">
+					<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.html"><img src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/logo.png" alt="На пенсии"></a>
+				</div>
+				<div class="search">
+					<form action="/widget/search" method="post">
+						<input name="searchvalue" placeholder="Поиск..." class="backbord" type="text">
+						<input value=" " name="searchsubmit" type="submit">
+					</form>
+				</div>
+				<div class="userform">
+										<ul class="backbord">
+						<li data-toggle="modal" data-target="#autorisation">Вход</li>
+						<li data-toggle="modal" data-target="#registration">Регистрация</li>
+					</ul>
+									</div>
+				<div class="clock backbord">
+					<div class="date">17 декабря 2017</div>
+					<div class="time">22:03:35</div>
+				</div>
+			</div>
+			<div class="mainmenu">
+				<div class="menu-top1">
+					<ul id="yw3">
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlsite/index">Главная</a></li>
+<li><span>Рубрики</span>
+<ul>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/pensionoe_delo">Пенсионное дело</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/domashnij_advokat">Домашний адвокат</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/novoe_v_zakonodatelstve">Новое в законодательстве</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/potrebitel">Потребитель</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/kommunalka">Коммуналка</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/nasha_zhizn">Наша жизнь</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/zdorove">Здоровье</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/sovety_narodnoj_mediciny">Советы народной медицины</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/lgoty">Льготы</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/dacha">Дача</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/dengi">Деньги</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/dosug">Досуг</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/pensionery_za_granicej">Пенсионеры за границей</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/shkola_vyzhivaniya">Школа выживания</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/domashnyaya_enciklopediya">Домашняя энциклопедия</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/turizm_na_divane">Туризм на диване</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/raznoe">Разное</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/konkurs">Конкурсы</a></li>
+</ul>
+</li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlpoleznosti">Полезности</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmledition">От редакции</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlgames">Игры</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlauthors">Наши авторы</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarchive">Архив</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlpages/103-network">Соцсеть НП</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlcontacts">Контакты</a></li>
+</ul>				</div>
+				<div class="menu-top2">
+										<ul id="yw4">
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/pensionoe_delo">Пенсионное дело</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/konkurs">Конкурсы</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlcommunity">Все наши сообщества</a></li>
+<li><span onclick="redaction_message(2)"><img src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/vopros_ic.png" alt="">Вопрос специалисту</span></li>
+</ul>				</div>
+			</div>
+		</div>
+    </div>
+</div>
+
+<div class="modal fade" id="invitation" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="">
+            <form id="invitation-form" action="/widget/invitation" method="post">            <input value="1" name="InvitationForm[type]" id="InvitationForm_type" type="hidden">            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <p class="modal-title">Пригласить друга</p>
+            </div>
+						<div class="modal-body">
+				<p>Возможно, Вы забыли зайти под своим именем и паролем, или еще не прошли Регистрацию на нашем сайте</p>
+			</div>
+			            </form>        </div>
+    </div>
+</div>
+<div class="modal fade" id="redaction-message" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="">
+            <form id="redaction-form" action="/widget/letters" method="post">            <input value="1" name="Letters[type]" id="Letters_type" type="hidden">            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <p class="modal-title">Написать письмо в редакцию</p>
+            </div>
+            			
+			<div class="modal-body">
+				<p>Данный сервис временно не доступен. Просим прощения за доставленное неудобство.</p>
+			</div>
+			
+            </form>        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="autorisation" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="autorisation-form" action="/widget/autorisation" method="post">            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <p class="modal-title">Вход на сайт</p>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <input placeholder="E-mail" name="LoginForm[username]" id="LoginForm_username" type="text">                    <div class="errorMessage" id="LoginForm_username_em_" style="display:none"></div>                </div>
+
+                <div class="row">
+                    <input placeholder="Пароль" name="LoginForm[password]" id="LoginForm_password" type="password">                    <div class="errorMessage" id="LoginForm_password_em_" style="display:none"></div>                </div>
+                <div class="errorMessage"></div>
+                <div class="row rememberMe">
+                    <label><input id="ytLoginForm_rememberMe" value="0" name="LoginForm[rememberMe]" type="hidden"><input name="LoginForm[rememberMe]" id="LoginForm_rememberMe" value="1" type="checkbox"> Запомнить меня</label>
+                </div>
+            </div>
+            <div class="modal-footer" style="position:relative">
+                <div class="row buttons">
+                    <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrecovery">Забыли пароль?</a>
+                    <input class="btn btn-primary" name="yt1" value="Войти" type="submit">                </div>
+            </div>
+            </form>        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="registration" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" style="">
+            <form id="registration-form" action="/widget/registration" method="post">            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <p class="modal-title">Регистрация</p>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+					<input placeholder="Имя" name="User[name]" id="User_name" maxlength="50" type="text">					<div class="errorMessage" id="User_name_em_" style="display:none"></div>				</div>
+				
+                <div class="row">
+					<input placeholder="Фамилия" name="User[surname]" id="User_surname" maxlength="100" type="text">					<div class="errorMessage" id="User_surname_em_" style="display:none"></div>				</div>
+				
+                <div class="row">
+					<input placeholder="Email" name="User[email]" id="User_email" maxlength="50" type="text">					<div class="errorMessage" id="User_email_em_" style="display:none"></div>				</div>
+				
+            </div>            <div class="modal-footer">
+                <div class="row buttons">
+                    <input name="yt2" value="Регистрация" type="submit">                </div>
+            </div>
+            </form>        </div>
+    </div>
+</div>
+</div>
+</div>	<div id="maket">
+	   <div class="breadcrumbs">
+					<div class="breadcrumbs">
+<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.html">Главная</a> » <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews">Новости</a> » <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrubrics/nasha_zhizn">Наша жизнь</a> » <span>86-летняя одесситка занимается йогой и садится на шпагат</span></div>				</div>
+		<div class="left-body">
+			<div class="portlet" id="yw5">
+<div class="portlet-content">
+<div class="latestnews">
+    <ul>
+        <li class="li-header">Новости</li>
+        
+            <li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9729-v-ukraine-dozhdi-i-mokryy-sneg">
+                    <div class="date">16 дек. <span>18:38</span></div>
+                    <div class="text">В Украине дожди и мокрый снег</div>
+                </a>
+            </li>
+            
+            <li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9728-uchenye-obnaruzhili-semyu-kotoraya-ne-oschuschaschet-boli">
+                    <div class="date">16 дек. <span>16:48</span></div>
+                    <div class="text">Ученые обнаружили семью, которая не ощущает боли</div>
+                </a>
+            </li>
+            
+            <li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9727-na-zakarpate-startoval-pervyy-pryanichnyy-festival">
+                    <div class="date">16 дек. <span>14:37</span></div>
+                    <div class="text">На Закарпатье стартовал первый пряничный фестиваль</div>
+                </a>
+            </li>
+            
+            <li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9726-kakaya-pogoda-ozhidaetsya-v-subbotu-16-dekabrya">
+                    <div class="date">15 дек. <span>20:32</span></div>
+                    <div class="text">Какая погода ожидается в субботу, 16 декабря?</div>
+                </a>
+            </li>
+            
+            <li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9725-ukrainskie-pensionery-poluchat-dve-pensii">
+                    <div class="date">15 дек. <span>17:14</span></div>
+                    <div class="text">Украинские пенсионеры получат две пенсии</div>
+                </a>
+            </li>
+            
+            <li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9724-74-letnyaya-pensionerka-naryadila-elku-nizhnim-belem">
+                    <div class="date">15 дек. <span>16:06</span></div>
+                    <div class="text">74-летняя пенсионерка нарядила елку нижним бельем</div>
+                </a>
+            </li>
+            
+            <li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9722-v-shvecii-planiruyut-povysit-pensionnyy-vozrast">
+                    <div class="date">15 дек. <span>12:56</span></div>
+                    <div class="text">В Швеции повышают пенсионный возраст</div>
+                </a>
+            </li>
+            
+            <li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9723-v-ukraine-planiruyut-fiksirovat-koefficient-zarabotka-na-moment-naznacheniya-pen">
+                    <div class="date">15 дек. <span>10:21</span></div>
+                    <div class="text">В Украине планируют фиксировать коэффициент заработка...</div>
+                </a>
+            </li>
+                    <li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews">Все новости</a></li>
+    </ul>
+</div>
+</div>
+</div><div class="portlet" id="yw6">
+<div class="portlet-content">
+<div class="v-scrol">
+    <div class="head">Рейтинг конкурсантов</div>
+    <div id="left-konkurs-rating-block" class="scontent left-scrol-content box">
+        <ul>
+            			<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3014-kadchenko-lyudmila-petrovna-risuyu-miniatyury-na-kamushkah-i-sozdayu-podelki-iz-">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/vystavka_050.jpg_9330_53_1509996528.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 947<br>
+                        <i class="fa fa-eye"></i> 5851                    </span>
+                    <span><p> 
+					Кадченко Людмила Петровна</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/2990-barishpol-raisa-nikolaevna-uvlekayus-pleteniem-iz-bisera">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/DSC_0281.JPG_2306_53_1508827328.JPG&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 774<br>
+                        <i class="fa fa-eye"></i> 6062                    </span>
+                    <span><p> 
+					Баришполь Раиса Николаевна</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3007-chechevikina-nina-yakovlevna-vyazhu-kryuchkom-i-vyshivayu">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/chechevikina_1.jpg_8792_53_1509633245.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 159<br>
+                        <i class="fa fa-eye"></i> 1258                    </span>
+                    <span><p> 
+					Чечевикина Нина Яковлевна</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3022-grohoveckaya-tamara-aleksandrovna-pishu-stihi">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/DSC00024.JPG_7005_53_1510591646.JPG&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 137<br>
+                        <i class="fa fa-eye"></i> 1901                    </span>
+                    <span><p> 
+					Гроховецкая Тамара Александровна</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/2991-leonova-natalya-semenovna-vyshivayu-i-pishu-stihi">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/osn.jpg_7739_53_1508827842.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 82<br>
+                        <i class="fa fa-eye"></i> 1094                    </span>
+                    <span><p> 
+					Леонова Наталья Семеновна</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/2992-aleksandrova-olga-vladimirovna-moe-hobbi-vyraschivanie-rasteniy-i-prigotovlenie-">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/aleksandrova_20.jpg_1097_53_1508830606.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 32<br>
+                        <i class="fa fa-eye"></i> 856                    </span>
+                    <span><p> 
+					Александрова Ольга Владимировна</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3011-misochnik-vira-grigorivna-moye-hobi-vishivka">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/misochnik_3.jpg_2122_53_1509895915.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 12<br>
+                        <i class="fa fa-eye"></i> 558                    </span>
+                    <span><p> 
+					Мисочник Віра Григорівна</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3008-rimskaya-galina-egorovna-delayu-topiarii-vyshivayu-i-rabotayu-s-solenym-testom">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/rimskaya_1.jpg_4853_53_1509633821.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 7<br>
+                        <i class="fa fa-eye"></i> 572                    </span>
+                    <span><p> 
+					Римская Галина Егоровна</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3006-nina-zikran-iz-zadovolennyam-pletu-z-gazetnih-trubochok">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/zikran_1.jpg_9764_53_1509632513.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 7<br>
+                        <i class="fa fa-eye"></i> 598                    </span>
+                    <span><p> 
+					Ніна Зікрань</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3020-vovchanskiy-yaroslav-ivanovich-lyublyu-malyuvati-ta-zaymatisya-komponuvannyam">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/DSC06754.JPG_1241_53_1510586715.JPG&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 7<br>
+                        <i class="fa fa-eye"></i> 468                    </span>
+                    <span><p> 
+					Вовчанський Ярослав Іванович</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3019-kunickaya-lidiya-ivanovna-sozdayu-sadovye-skulptury">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/img1047.jpg_7012_53_1510559452.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 7<br>
+                        <i class="fa fa-eye"></i> 449                    </span>
+                    <span><p> 
+					Куницкая Лидия Ивановна</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3029-bilka-anatoliy-mihaylovich-pishu-stihi">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/Bilka.png_3393_53_1511266748.png&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 6<br>
+                        <i class="fa fa-eye"></i> 368                    </span>
+                    <span><p> 
+					Билька Анатолий Михайлович</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3017-saratovskaya-viktoriya-arkadevna-uvlekayus-hudozhestvennoy-samodeyatelnostyu-soc">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/23435323_759694387547612_2102120721_n.jpg_8941_53_1510213705.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 6<br>
+                        <i class="fa fa-eye"></i> 437                    </span>
+                    <span><p> 
+					Саратовская Виктория Аркадьевна</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3023-vdovenko-lidiya-tihonovna-mne-nravitsya-vyshivat-biserom">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/Bezymyannyy.jpg__1510594643.jpg_8620_37_1510936811.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 5<br>
+                        <i class="fa fa-eye"></i> 592                    </span>
+                    <span><p> 
+					Вдовенко Лидия Тихоновна</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3021-ivanova-lyudmila-ivanivna-iz-zadovolennyam-pishu-virshi-ta-gumoreski">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/Bezymyannyy.jpg_9933_53_1510590868.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r" style="padding-top: 5px;">
+                        <i class="fa fa-thumbs-o-up"></i> 3<br>
+                        <i class="fa fa-eye"></i> 445                    </span>
+                    <span><p> 
+					Іванова Людмила Іванівна</p></span>
+                </a>
+            </li>
+			        </ul>
+    </div>
+    <div class="foot"><a href=""></a></div>
+</div>
+</div>
+</div><div class="portlet" id="yw7">
+<div class="portlet-content">
+<div class="v-scrol">
+    <div class="head">Самое популярное</div>
+    <div id="left-popular-block" class="scontent left-scrol-content box mCustomScrollbar _mCS_2" style="overflow: hidden;"><div class="mCustomScrollBox mCS-light" id="mCSB_2" style="position: relative; height: 100%; overflow: hidden; max-width: 100%; max-height: 250px;"><div class="mCSB_container" style="position:relative; top:0;">
+        <ul>
+            			<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9636-ukrainskie-pensionery-dolzhny-vybrat-pensiya-ili-rabota-reva">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/24224461.jpg_3452_53_1511524721.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 12173                    </span>
+                    <span><p> 
+					Украинские пенсионеры должны выбрать: пенсия или работа...</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9630-reva-rasskazal-kogda-podnimut-pensii-voennosluzhaschim">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/562b43303baf0cb9b4b823cc5a92d0d9.jpg_3156_53_1511424259.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 1<br>
+                        <i class="fa fa-eye"></i> 3833                    </span>
+                    <span><p> 
+					Рева рассказал, когда поднимут пенсии военнослужащим</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9650-c-1-dekabrya-v-ukraine-vyrastut-prozhitochnyy-minimum-i-socvyplaty">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/2_main_new.1496148570.jpg_3943_53_1511854112.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 3124                    </span>
+                    <span><p> 
+					C 1 декабря в Украине вырастут прожиточный минимум и соцвыплаты </p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9675-kogda-zhdat-ocherednogo-povysheniya-pensiy">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/3d59993105e764af0ea1a232b5aa86ed.jpg_9524_53_1512459438.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 2825                    </span>
+                    <span><p> 
+					Когда ждать очередного повышения пенсий?</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9608-kabmin-ureguliroval-mehanizm-nachisleniya-pensiy-licam-postradavshim-pri-likvida">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/1803957.jpg_4124_53_1510860388.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 2715                    </span>
+                    <span><p> 
+					Кабмин урегулировал механизм начисления пенсий лицам, пострадавшим...</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9619-reva-rasskazal-kto-ne-smozhet-vyyti-na-pensiyu-v-sleduyuschem-godu-i-skolko-stoi">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/853199.jpg_7937_53_1511190894.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 2081                    </span>
+                    <span><p> 
+					Рева рассказал, кто не сможет выйти на пенсию в следующем...</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3037-pravilno-li-rasschitana-pensiya">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/04ebf3c15aa3d58dcf68809eeacf9dc4.jpg_6211_53_1512222884.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 1976                    </span>
+                    <span><p> 
+					Правильно ли рассчитана пенсия?</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9720-pensii-ukraincam-kotorye-imeyut-polnyy-strahovoy-stazh-pereschitayut">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/Bez_nazvaniya.jpg_7025_53_1513261297.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 1<br>
+                        <i class="fa fa-eye"></i> 1830                    </span>
+                    <span><p> 
+					Пенсии украинцам, которые имеют полный страховой стаж пересчитают </p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3027-lgotnaya-pensiya-i-attestaciya-rabochego-mesta">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/c82e68ecc91a6115905b52a4dab0ec5b_XL.jpg_1307_53_1511261438.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 1625                    </span>
+                    <span><p> 
+					Льготная пенсия и аттестация рабочего места</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9725-ukrainskie-pensionery-poluchat-dve-pensii">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/Pensiya.jpg_4213_53_1513347303.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 1<br>
+                        <i class="fa fa-eye"></i> 1613                    </span>
+                    <span><p> 
+					Украинские пенсионеры получат две пенсии</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9660-v-ministerstve-socpolitiki-rasskazali-naskolko-vyrastut-socvyplaty-s-1-dekabrya">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/779195.jpg_5042_53_1512046395.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 1532                    </span>
+                    <span><p> 
+					В министерстве соцполитики рассказали, насколько вырастут...</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9613-kievskih-lgotnikov-zhdut-novovvedeniya">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/kyiv_metro-1.jpg_8393_53_1511077080.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 1432                    </span>
+                    <span><p> 
+					Киевских льготников ждут нововведения</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9637-kardiologi-ssha-izmenili-normy-arterialnogo-davleniya">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/vysokoe-davlenie.jpg_5732_53_1511536671.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 1302                    </span>
+                    <span><p> 
+					Кардиологи США изменили нормы артериального давления</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9714-groysman-rasskazal-kak-izmenyatsya-pensii-voennosluzhaschim">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/40156.jpg_1656_53_1513162317.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 2<br>
+                        <i class="fa fa-eye"></i> 1233                    </span>
+                    <span><p> 
+					Гройсман рассказал, как изменятся пенсии военнослужащим</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9719-sleduet-li-ozhidat-povysheniya-minimalnoy-pensii-v-sleduyuschem-godu">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/2015_10_30_032580_01.jpg_2869_53_1513253915.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 1217                    </span>
+                    <span><p> 
+					Следует ли ожидать повышения минимальной пенсии в следующем...</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9682-vklady-v-sberbanke-sssr-hotyat-vernut">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/Sberezheniya-pensionerov-1362499192_49.jpg_3201_53_1512565959.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 1<br>
+                        <i class="fa fa-eye"></i> 1194                    </span>
+                    <span><p> 
+					Вклады в Сбербанке СССР хотят вернуть</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9622-v-sleduyuschem-godu-ukraincy-budut-oplachivat-kommunalku-sosedey">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/vl_104_ua6_id14451_650x411_9_650x410.jpg_6178_53_1511255719.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 1182                    </span>
+                    <span><p> 
+					В следующем году украинцы будут оплачивать коммуналку соседей </p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9685-chto-izmenitsya-dlya-ukraincev-kogda-vstupit-v-silu-novyy-zakon-o-kommunalnyh-us">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/original.jpg_3725_53_1512636306.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 1110                    </span>
+                    <span><p> 
+					Что изменится для украинцев, когда вступит в силу новый...</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9667-pensioneram-doneckoy-oblasti-obeschali-vernut-pensionnyy-dolg-za-vremya-okkupaci">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/pensiya-1.jpg_8504_53_1512147789.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 1013                    </span>
+                    <span><p> 
+					Пенсионерам Донецкой области обещали вернуть пенсионный...</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9643-v-ukraine-vpervye-nachali-proizvodstvo-chernogo-chesnoka">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/23168017_1054410101357160_5508256648679044597_n.jpg_7822_53_1511696998.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 988                    </span>
+                    <span><p> 
+					В Украине впервые начали производство черного чеснока</p></span>
+                </a>
+            </li>
+			        </ul>
+    </div><div class="mCSB_scrollTools" style="position: absolute; display: block;"><a class="mCSB_buttonUp" oncontextmenu="return false;"></a><div class="mCSB_draggerContainer"><div class="mCSB_dragger" style="position: absolute; height: 54px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="position: relative; line-height: 54px;"></div></div><div class="mCSB_draggerRail"></div></div><a class="mCSB_buttonDown" oncontextmenu="return false;"></a></div></div></div>
+    <div class="foot"><a href=""></a></div>
+</div>
+</div>
+</div><div class="portlet" id="yw8">
+<div class="portlet-content">
+<div class="v-scrol">
+    <div class="head">Последние комментарии</div>
+    <div id="left-lastcomments-block" class="scontent left-scrol-content box mCustomScrollbar _mCS_3" style="overflow: hidden;"><div class="mCustomScrollBox mCS-light" id="mCSB_3" style="position: relative; height: 100%; overflow: hidden; max-width: 100%; max-height: 250px;"><div class="mCSB_container" style="position:relative; top:0;">
+        <ul>
+            			<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3014-kadchenko-lyudmila-petrovna-risuyu-miniatyury-na-kamushkah-i-sozdayu-podelki-iz-">
+				<span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/vystavka_050.jpg_9330_53_1509996528.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                                                <i class="fa fa-comment"></i> 8<br>
+                        <i class="fa fa-eye"></i> 5851                    </span>
+                    <span><p> 
+					Кадченко Людмила Петровна: «Рисую миниатюры на камушках...</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/2920-levickiy-nikolay-andreevich-uvlekayus-vyshivkoy-biserom-i-almaznoy-lepkoy">
+				<span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/zagruzhennoe_3.png_1891_53_1504205864.png&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                                                <i class="fa fa-comment"></i> 3<br>
+                        <i class="fa fa-eye"></i> 5713                    </span>
+                    <span><p> 
+					Левицкий Николай Андреевич: «Увлекаюсь вышивкой бисером...</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/1209-vyplatyat-li-dolgi-voennym-pensioneram">
+				<span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/DSC_0098__Shepelev.JPG_7836_33_1440514100.JPG&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                                                <i class="fa fa-comment"></i> 80<br>
+                        <i class="fa fa-eye"></i> 62194                    </span>
+                    <span><p> 
+					Выплатят ли долги военным пенсионерам</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/8502-yanvarskie-pensii-poobeschali-vyplatit-do-novogo-goda">
+				<span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/rozenko.jpeg_9892_47_1478786598.jpeg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                                                <i class="fa fa-comment"></i> 7<br>
+                        <i class="fa fa-eye"></i> 10707                    </span>
+                    <span><p> 
+					Январские пенсии пообещали выплатить до Нового года</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/2759-subsidiya-i-obyazatelnyy-platezh-kak-pravilno-platit">
+				<span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/subsidii.jpg_7435_345_1496149093.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                                                <i class="fa fa-comment"></i> 1<br>
+                        <i class="fa fa-eye"></i> 14643                    </span>
+                    <span><p> 
+					Субсидия и обязательный платеж: как правильно платить?</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9650-c-1-dekabrya-v-ukraine-vyrastut-prozhitochnyy-minimum-i-socvyplaty">
+				<span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/2_main_new.1496148570.jpg_3943_53_1511854112.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                                                <i class="fa fa-comment"></i> 5<br>
+                        <i class="fa fa-eye"></i> 3124                    </span>
+                    <span><p> 
+					C 1 декабря в Украине вырастут прожиточный минимум и соцвыплаты </p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9720-pensii-ukraincam-kotorye-imeyut-polnyy-strahovoy-stazh-pereschitayut">
+				<span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/Bez_nazvaniya.jpg_7025_53_1513261297.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                                                <i class="fa fa-comment"></i> 2<br>
+                        <i class="fa fa-eye"></i> 1830                    </span>
+                    <span><p> 
+					Пенсии украинцам, которые имеют полный страховой стаж пересчитают </p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9718-Ushel-iz-zhizni-Aleksandr-Vtyurin">
+				<span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/Sasha_Vtyurin.jpg_5352_37_1513250225.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                                                <i class="fa fa-comment"></i> 2<br>
+                        <i class="fa fa-eye"></i> 434                    </span>
+                    <span><p> 
+					Памяти друга</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9717-na-skolko-vyrastet-prozhitochnyy-minimum-v-sleduyuschem-godu">
+				<span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/1442984.jpg_1724_53_1513239917.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                                                <i class="fa fa-comment"></i> 1<br>
+                        <i class="fa fa-eye"></i> 504                    </span>
+                    <span><p> 
+					На сколько вырастет прожиточный минимум в следующем году? </p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9719-sleduet-li-ozhidat-povysheniya-minimalnoy-pensii-v-sleduyuschem-godu">
+				<span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/2015_10_30_032580_01.jpg_2869_53_1513253915.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                                                <i class="fa fa-comment"></i> 1<br>
+                        <i class="fa fa-eye"></i> 1217                    </span>
+                    <span><p> 
+					Следует ли ожидать повышения минимальной пенсии в следующем...</p></span>
+                </a>
+            </li>
+			        </ul>
+    </div><div class="mCSB_scrollTools" style="position: absolute; display: block;"><a class="mCSB_buttonUp" oncontextmenu="return false;"></a><div class="mCSB_draggerContainer"><div class="mCSB_dragger" style="position: absolute; height: 107px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="position: relative; line-height: 107px;"></div></div><div class="mCSB_draggerRail"></div></div><a class="mCSB_buttonDown" oncontextmenu="return false;"></a></div></div></div>
+	 <div class="foot"><a href="#"></a></div>
+</div>
+</div>
+</div><div id="n4p_13573" data-ids="1239829"><a target="_blank" class="rt_label_13573" href="https://my.redtram.com/"><span>Red</span>Tram Goods</a><table id="rt_table_13573" class="rt_table_13573" cellspacing="0" cellpadding="0"><tr><td class="rt_td_13573" width="100%" valign="top"><div class="rt_block_13573"><div class="rt_photo_13573"><a class="rt_image_13573" target="_blank" href="http://goods.redtram.com/go/13573/1239829/YT0xMzU3MyZiPTEyMzk4MjkmYz1odHRwOi8vc21pcnUubmV0L3Nob3ctYnVzaW5lc3MvMzQyNTEtcG9zbGUtaW5zdWx0YS12b2xvY2hrb3ZhLXBva3VwYWV0LWludmFsaWRub2Uta3Jlc2xvLmh0bWwmZD1odHRwczovL3d3dy5nb29nbGUuY29tLyZlPWh0dHA6Ly9uYXBlbnNpaS51YS9uZXdzLzMyNzktODYtbGV0bnlheWEtb2Rlc3NpdGthLXphbmltYWV0c3lhLXlvZ295LWktc2FkaXRzeWEtbmEtc2hwYWdhdCZmPTAmYWs9NGFhYWJlZjg2ZDg5YTViNGU0MGVmZmUzYWI1OWRkZGQmcGFydD1hYWZhMzIxZTY4ZDQ0ZWExNWU1OWRhYmE4MmE0ZjY5OA==?ref=http%3A%2F%2Fnapensii.ua%2Fnews%2F3279-86-letnyaya-odessitka-zanimaetsya-yogoy-i-saditsya-na-shpagat&amp;tmload=1513537356&amp;mid=15858&amp;page=2&amp;pos=1"><img src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/1239829.jpg" border="0"></a></div><div class="rt_main_13573"><div class="rt_title_13573_div"><a target="_blank" class="rt_title_13573" href="http://goods.redtram.com/go/13573/1239829/YT0xMzU3MyZiPTEyMzk4MjkmYz1odHRwOi8vc21pcnUubmV0L3Nob3ctYnVzaW5lc3MvMzQyNTEtcG9zbGUtaW5zdWx0YS12b2xvY2hrb3ZhLXBva3VwYWV0LWludmFsaWRub2Uta3Jlc2xvLmh0bWwmZD1odHRwczovL3d3dy5nb29nbGUuY29tLyZlPWh0dHA6Ly9uYXBlbnNpaS51YS9uZXdzLzMyNzktODYtbGV0bnlheWEtb2Rlc3NpdGthLXphbmltYWV0c3lhLXlvZ295LWktc2FkaXRzeWEtbmEtc2hwYWdhdCZmPTAmYWs9NGFhYWJlZjg2ZDg5YTViNGU0MGVmZmUzYWI1OWRkZGQmcGFydD1hYWZhMzIxZTY4ZDQ0ZWExNWU1OWRhYmE4MmE0ZjY5OA==?ref=http%3A%2F%2Fnapensii.ua%2Fnews%2F3279-86-letnyaya-odessitka-zanimaetsya-yogoy-i-saditsya-na-shpagat&amp;tmload=1513537356&amp;mid=15858&amp;page=2&amp;pos=1" rel="nofollow">Несчастью Волочковой сочувствует вся страна!</a></div></div><div class="rt_clear"></div></div></td></tr></table></div>
+<script type="text/javascript" charset="utf-8">
+  (function(d,s){
+    var o=d.createElement(s);
+    o.async=true;
+    o.type="text/javascript";
+    o.charset="utf-8";
+    if (location.protocol == "https:") {
+      o.src="https://js-goods.redtram.com/ticker_13573.js";
+    }
+    else {
+      o.src="http://js.grt02.com/ticker_13573.js";
+    }
+    var x=d.getElementsByTagName(s)[0];
+    x.parentNode.insertBefore(o,x);
+  })(document,"script");
+</script><div class="portlet" id="yw9">
+<div class="portlet-content">
+<div class="v-scrol">
+    <div class="head">Активисты</div>
+    <div id="left-activists-block" class="scontent left-scrol-content box mCustomScrollbar _mCS_1" style="overflow: hidden;"><div class="mCustomScrollBox mCS-light" id="mCSB_1" style="position: relative; height: 100%; overflow: hidden; max-width: 100%; max-height: 125px;"><div class="mCSB_container" style="position:relative; top:0;">
+        <ul>
+            			<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/47">
+                    <span title="Арина Виталенко" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/avatar.jpeg_8569_47_1402924391.jpeg&quot;); overflow: hidden;"></span>
+                    <span class="n">Арина Виталенко</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/39">
+                    <span title="Ирина Анциферова" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/IMG_2601.JPG_6028_39_1404715920.JPG&quot;); overflow: hidden;"></span>
+                    <span class="n">Ирина Анциферова</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/53">
+                    <span title="Анастасия Рудая" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/jurnalistika_kurs.jpg_3448_53_1502280206.jpg&quot;); overflow: hidden;"></span>
+                    <span class="n">Анастасия Рудая</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/37">
+                    <span title="Серый Кардинал" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/Grey_Cardinal.jpg_1791_37_1401701409.jpg&quot;); overflow: hidden;"></span>
+                    <span class="n">Серый Кардинал</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/54">
+                    <span title=" " class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/no_photo_1.jpg_2108_54_1433493729.jpg&quot;); overflow: hidden;"></span>
+                    <span class="n"></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/78">
+                    <span title="Одесский дачник" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/avatarka_odnoklassniki.jpg_7678_78_1446641447.jpg&quot;); overflow: hidden;"></span>
+                    <span class="n">Одесский дачник</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/345">
+                    <span title="Сергей Ищенко" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/4xuEmUTn0DM.jpg_8674_345_1437978953.jpg&quot;); overflow: hidden;"></span>
+                    <span class="n">Сергей Ищенко</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/387">
+                    <span title="Виктория Овчинникова" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/untitled-1.jpg_5069_387_1448023801.jpg&quot;); overflow: hidden;"></span>
+                    <span class="n">Виктория Овчинникова</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/35">
+                    <span title="Артем Бабак" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/avatarAB.jpg_3561_35_1403542628.jpg&quot;); overflow: hidden;"></span>
+                    <span class="n">Артем Бабак</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/48">
+                    <span title="Внештатный журналист" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/___1_1.JPG_2695_48_1446635013.JPG&quot;); overflow: hidden;"></span>
+                    <span class="n">Внештатный журналист</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/288">
+                    <span title="Алена Швец" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/hMPYfpWWYA0.jpg_2378_288_1432299411.jpg&quot;); overflow: hidden;"></span>
+                    <span class="n">Алена Швец</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/289">
+                    <span title="Евгения Генова" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/10269247_663357330400789_6642032526261433163_o.jpg_4668_289_1432299560.jpg&quot;); overflow: hidden;"></span>
+                    <span class="n">Евгения Генова</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/290">
+                    <span title="Анна Мячина" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/ya.jpg_4971_290_1432299725.jpg&quot;); overflow: hidden;"></span>
+                    <span class="n">Анна Мячина</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/334">
+                    <span title="Александр Мельник" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/P5080286.JPG_1878_334_1439455856.JPG&quot;); overflow: hidden;"></span>
+                    <span class="n">Александр Мельник</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/14005">
+                    <span title="Инна Голубева" class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/novaya-redakciya-zakona-o-kurortnom-naloge_1.jpeg_3702_14005_1509265304.jpeg&quot;); overflow: hidden;"></span>
+                    <span class="n">Инна Голубева</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/49">
+                    <span title="Архив редакции" class="cover rad5" style="background-image: url(&quot;/tools/images/users/no.jpg&quot;); overflow: hidden;"></span>
+                    <span class="n">Архив редакции</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/278">
+                    <span title="Оксана Иванова" class="cover rad5" style="background-image: url(&quot;/tools/images/users/no.jpg&quot;); overflow: hidden;"></span>
+                    <span class="n">Оксана Иванова</span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/3563">
+                    <span title="Анна Коваленко" class="cover rad5" style="background-image: url(&quot;/tools/images/users/no.jpg&quot;); overflow: hidden;"></span>
+                    <span class="n">Анна Коваленко</span>
+                </a>
+            </li>
+			        </ul>
+    </div><div class="mCSB_scrollTools" style="position: absolute; display: block;"><a class="mCSB_buttonUp" oncontextmenu="return false;"></a><div class="mCSB_draggerContainer"><div class="mCSB_dragger" style="position: absolute; height: 30px; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="position: relative; line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div><a class="mCSB_buttonDown" oncontextmenu="return false;"></a></div></div></div>
+    <div class="foot"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrating/index">рейтинг</a></div>
+</div></div>
+</div><div class="portlet" id="yw10">
+<div class="portlet-content">
+<div class="v-scrol">
+    <div class="head">Читайте также</div>
+    <div id="left-read_as-block" class="scontent left-scrol-content box">
+        <ul>
+            			<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3049-shkola-ustnogo-scheta-soroban">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/MA-300x214.jpg_3177_37_1513290275.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 85                    </span>
+                    <span><p> 
+					Школа устного счёта Соробан</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3036-vybiraem-radiatory-dlya-otopleniya">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/radiator-02.jpg_4870_37_1512047911.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 339                    </span>
+                    <span><p> 
+					Выбираем радиаторы для отопления</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3032-kakim-dolzhno-byt-proektnoe-reshenie">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/ekopan.jpg_2476_37_1511532898.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 272                    </span>
+                    <span><p> 
+					Каким должно быть проектное решение</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3013-vybor-i-bezopasnaya-ustanovka-gazovyh-kotlov">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/gaz_kotel_179.jpg_8863_37_1509984629.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 844                    </span>
+                    <span><p> 
+					Выбор и безопасная установка газовых котлов</p></span>
+                </a>
+            </li>
+						<li class="li">
+                <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3012-mentalnaya-arifmetika-v-shkole-soroban">
+                    <span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/soroban.jpg_5780_37_1509983998.jpg&quot;); overflow: hidden;"></span>
+                    <span class="r">
+                        <i class="fa fa-star"></i> 0<br>
+                        <i class="fa fa-eye"></i> 451                    </span>
+                    <span><p> 
+					Ментальная арифметика в Школе Соробан</p></span>
+                </a>
+            </li>
+			        </ul>
+    </div>
+    <div class="foot"><a href=""></a></div>
+</div>
+</div>
+</div>					</div>
+		<div class="right-body">    	<div class="single">
+	<div class="right">
+				<a class="gallery" rel="group" title="" href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmltools/images/pages/Bezymyannyy.jpg_4239_33_1431677399.jpg">
+			<!--<span class="cover rad5" style="background-image: url(/tools/images/pages/)"></span>-->
+			<img class="rad5" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/Bezymyannyy.jpg" alt="Рея Малинина - ветеран из Одессы" title="Рея Малинина - ветеран из Одессы">
+		</a>
+						<ul class="rad5">
+			<li><div class="title rad5"><p class="rad5">Новости по теме</p></div></li>
+						<li class="li">
+				<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9728-uchenye-obnaruzhili-semyu-kotoraya-ne-oschuschaschet-boli">
+					<span class="cover rad2" style="background-image: url(&quot;/tools/images/pages/1373752090_knee-pain.jpg_6778_53_1513428540.jpg&quot;); overflow: hidden;"></span>					<p>Ученые обнаружили семью, которая...</p>
+				</a>
+			</li>
+						<li class="li">
+				<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9718-Ushel-iz-zhizni-Aleksandr-Vtyurin">
+					<span class="cover rad2" style="background-image: url(&quot;/tools/images/pages/Sasha_Vtyurin.jpg_5352_37_1513250225.jpg&quot;); overflow: hidden;"></span>					<p>Памяти друга</p>
+				</a>
+			</li>
+						<li class="li">
+				<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9715-ukrainskaya-pensionerka-ezdit-v-supermarket-na-gelendvagene">
+					<span class="cover rad2" style="background-image: url(&quot;/tools/images/pages/foto-iz-otkrytyh-istochnikov_rect_91ae1b07b8db1d1a1887b6b576494f42.png_5368_53_1513174099.png&quot;); overflow: hidden;"></span>					<p>Украинская пенсионерка ездит в...</p>
+				</a>
+			</li>
+						<li class="li">
+				<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9708-v-zaporozhe-privezut-ikonu-andreya-pervozvannogo">
+					<span class="cover rad2" style="background-image: url(&quot;/tools/images/pages/1.jpg_3441_53_1513078148.jpg&quot;); overflow: hidden;"></span>					<p>В Запорожье привезут икону Андрея...</p>
+				</a>
+			</li>
+						<li class="li">
+				<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9698-ukrzaliznicya-zapustila-novyy-grafik-dvizheniya-poezdov">
+					<span class="cover rad2" style="background-image: url(&quot;/tools/images/pages/186e2be69060e7b866b248b67f6d67fa_2_1_0.jpg_1588_53_1512902689.jpg&quot;); overflow: hidden;"></span>					<p>«Укрзалізниця» запустила новый...</p>
+				</a>
+			</li>
+					</ul>
+			</div>
+	<h1>86-летняя одесситка занимается йогой и садится на шпагат</h1>
+	<div class="date">
+		15 мая 2015 <span>11:09</span> |
+		№0		<span class="ic">
+			<i class="fa fa-star"></i> <span class="total_like">0</span> 
+			<i class="fa fa-eye"></i> 2852 
+			<i class="fa fa-comment"></i> 0		</span>
+			</div>
+	<div class="text"><p>
+	Рея Николаевна Малинина, 86-летняя ветеран из Одессы, вот уже 15 лет 
+занимается йогой. Сюжет о ней не так давно был показан на телеканале 
+«Интер» в программе «Подробности».</p>
+<p>
+	В настоящее время Рея Николаевна тренируется дома по несколько часов: 
+вначале делает разминку, а затем медитирует в позе лотоса. По ее словам,
+ она ощущает энергетический эффект. Кульминация тренировки - продольный 
+шпагат. Это сложное упражнение женщина делает непринужденно. Вот теперь,
+ говорит, организм точно заряжен на целый день.</p>
+<p>
+	Хорошая физическая форма позволяет женщине в свои восемьдесят шесть лет
+ руководить первичной организацией ветеранов Приморского района 
+Одессы.&nbsp;В ветеранской организации говорят, что в первую очередь Рея
+ Николаевна опекает одиноких, обделенных вниманием фронтовиков.</p>
+<p>
+	Отметим, что Рея Николаевна в годы Великой Отечественной войны в 
+пятнадцетилетнем возрасте сбежала на фронт, служила радисткой. Она 
+прошла Румынию, Югославию, Австрию и Германию.</p>
+<p>
+	"У меня был ключ: если нужно, я передавала сводки и принимала шифровки,
+ молнии, меня даже называли в армии "молния", я не могла ходить - я 
+бегала", - рассказывает Рея Малинина, ветеран Второй мировой войны.</p>
+<p>
+	<iframe src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/yZEF552xwJA.htm" allowfullscreen="" width="500" height="410" frameborder="0"></iframe></p>
+<p>
+	Напомним, ранее мы рассказывали о <u><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/2654-samyy-pozhiloy-trener-po-strel-be-iz-luka-ustanovil-rekord" target="_self">самом пожилом тренере по стрельбе из лука Михаиле Хускивадзе из Львова</a></u>.</p>
+<p>
+	Источник: <a href="http://podrobnosti.ua/2033220-veteran-iz-odessy-zanimaetsja-jogoj-i-rukovodit-frontovikami.html" rel="nofollow" target="_blank">Подробности</a></p>
+<p>
+	<em><strong>Видео&nbsp;Alex Sanyo</strong></em></p>
+</div>
+		<div class="v_soc">
+				<script src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/share.js" async="async"></script>
+		<style>
+			.single .v_soc ul {
+				border : 0;
+			}
+		</style>
+		<div class="ya-share2 ya-share2_inited" data-services="vkontakte,facebook,odnoklassniki,gplus,twitter" data-counter="" data-limit="5"><div class="ya-share2__container ya-share2__container_size_m"><ul class="ya-share2__list ya-share2__list_direction_horizontal"><li class="ya-share2__item ya-share2__item_service_vkontakte"><a class="ya-share2__link" href="https://vk.com/share.php?url=http%3A%2F%2Fnapensii.ua%2Fnews%2F3279-86-letnyaya-odessitka-zanimaetsya-yogoy-i-saditsya-na-shpagat&amp;title=86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82&amp;description=&amp;image=&amp;utm_source=share2" rel="nofollow noopener" target="_blank" title="ВКонтакте"><span class="ya-share2__badge"><span class="ya-share2__icon"></span><span class="ya-share2__counter ya-share2__counter_visible">3</span></span><span class="ya-share2__title">ВКонтакте</span></a></li><li class="ya-share2__item ya-share2__item_service_facebook"><a class="ya-share2__link" href="https://www.facebook.com/sharer.php?src=sp&amp;u=http%3A%2F%2Fnapensii.ua%2Fnews%2F3279-86-letnyaya-odessitka-zanimaetsya-yogoy-i-saditsya-na-shpagat&amp;title=86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82&amp;description=&amp;picture=&amp;utm_source=share2" rel="nofollow noopener" target="_blank" title="Facebook"><span class="ya-share2__badge"><span class="ya-share2__icon"></span><span class="ya-share2__counter ya-share2__counter_visible">18</span></span><span class="ya-share2__title">Facebook</span></a></li><li class="ya-share2__item ya-share2__item_service_odnoklassniki"><a class="ya-share2__link" href="https://connect.ok.ru/offer?url=http%3A%2F%2Fnapensii.ua%2Fnews%2F3279-86-letnyaya-odessitka-zanimaetsya-yogoy-i-saditsya-na-shpagat&amp;title=86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82&amp;description=&amp;imageUrl=&amp;utm_source=share2" rel="nofollow noopener" target="_blank" title="Одноклассники"><span class="ya-share2__badge"><span class="ya-share2__icon"></span><span class="ya-share2__counter ya-share2__counter_visible">4</span></span><span class="ya-share2__title">Одноклассники</span></a></li><li class="ya-share2__item ya-share2__item_service_gplus"><a class="ya-share2__link" href="https://plus.google.com/share?url=http%3A%2F%2Fnapensii.ua%2Fnews%2F3279-86-letnyaya-odessitka-zanimaetsya-yogoy-i-saditsya-na-shpagat&amp;utm_source=share2" rel="nofollow noopener" target="_blank" title="Google+"><span class="ya-share2__badge"><span class="ya-share2__icon"></span><span class="ya-share2__counter">0</span></span><span class="ya-share2__title">Google+</span></a></li><li class="ya-share2__item ya-share2__item_service_twitter"><a class="ya-share2__link" href="https://twitter.com/intent/tweet?text=86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82&amp;url=http%3A%2F%2Fnapensii.ua%2Fnews%2F3279-86-letnyaya-odessitka-zanimaetsya-yogoy-i-saditsya-na-shpagat&amp;hashtags=&amp;utm_source=share2" rel="nofollow noopener" target="_blank" title="Twitter"><span class="ya-share2__badge"><span class="ya-share2__icon"></span></span><span class="ya-share2__title">Twitter</span></a></li></ul><iframe class="ya-share2__iframe" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/frame.htm" style="border: 0; display: none; position: absolute; left: -9999px;"></iframe></div></div>
+	</div>
+	<div class="author">
+						<span class="name">
+			<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/33">
+				<span class="cover rad5" style="background-image: url(&quot;/tools/images/users/thumb/Z8k9y4tynzs.jpg_1913_33_1479481816.jpg&quot;); overflow: hidden;"></span>
+				<div>автор</div>
+				Ольга Коцына			</a>
+		</span>
+			</div>
+		<div class="articles">
+		<ul>
+			<li><div class="title"><p>Статьи по теме</p></div></li>
+			<li class="center">
+								<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3048-kak-belka-v-kolese-horosho-ili-ploho-byt-superaktivnoy">
+					<span class="pd">
+						<span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/ponyatie-aktivnosti.jpg_8225_53_1513235813.jpg&quot;); overflow: hidden;"></span>
+						Как белка в колесе: хорошо или плохо быть...					</span>
+				</a>
+								<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3046-stoit-li-boyatsya-izmeneniya-klimata">
+					<span class="pd">
+						<span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/2fb7c7abbd.jpg_4790_53_1512903536.jpg&quot;); overflow: hidden;"></span>
+						Стоит ли бояться изменения климата?					</span>
+				</a>
+								<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3031-svyatye-novomucheniki-proslavilis-dobrymi-delami-i-chudesami">
+					<span class="pd">
+						<span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/w1056h594fill.jpg_3139_53_1511368341.jpg&quot;); overflow: hidden;"></span>
+						Святые новомученики прославились добрыми...					</span>
+				</a>
+							</li>
+			<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles">еще статьи</a></li>
+		</ul>
+	</div>
+			<div class="portlet" id="yw0">
+<div class="portlet-content">
+<div class="comments" id="comments">	
+		<div class="add_comment li rad5" id="add_comment" onclick="show_comment_form()">Добавить комментарий</div>
+	<form id="comment-form" action="/widget/comment" method="post">		<div class="title"><p>Добавить комментарий</p></div>
+				<div class="row">
+			<input placeholder="Введите имя" class="rad2" name="Comments[user_name]" id="Comments_user_name" maxlength="50" type="text">			<div class="errorMessage" id="Comments_user_name_em_" style="display:none"></div>		</div>
+				<div class="row">
+			<textarea placeholder="Введите текст комментария" class="rad2" name="Comments[text]" id="Comments_text"></textarea>			<div class="errorMessage" id="Comments_text_em_" style="display:none"></div>			<p>Соблюдайте <a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlpages/102-pravila-commentirovanya">правила комментирования</a>. При несоблюдении, Вы можете быть забанены.</p>
+		</div>
+								<div class="row verifyCode captcha1">
+				<img id="yw1" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/captcha.png" alt="">				<input placeholder="Введите код с картинки" class="rad2" name="Comments[verifyCode]" id="Comments_verifyCode" type="text">				<div class="errorMessage" id="Comments_verifyCode_em_" style="display:none"></div>			</div>
+						<p>Если Вам надоело каждый раз вводить капчу – потратьте один раз 
+две минуты и станьте полноправным участником соцсети "На пенсии", а 
+главное комментируйте, без всякой капчи, сколько хотите.</p>
+			<div class="log-reg">
+				<a href="javascript:%20void(0);" class="rad5" data-toggle="modal" data-target="#autorisation">Войти</a>
+				<a href="javascript:%20void(0);" class="rad5" data-toggle="modal" data-target="#registration">Зарегистрироваться</a>
+			</div>
+				<div class="row submit">
+			<input value="3279" name="Comments[page_id]" id="Comments_page_id" type="hidden">			<input value="1" name="Comments[type]" id="Comments_type" type="hidden">			<input class="add_comment li rad5" name="yt0" value="Комментировать" type="submit">		</div>
+	</form></div></div>
+</div>		
+	<div id="CNM3784" style="text-align: center;"><table class="NMg">  <tbody><tr>  <td class="NMiG ngb0"><div class="NMjG"><a target="_blank" href="https://gcl.novostimira.biz/500914/4482/1/1513537355/90a7aea3a0a6afc679c4d68d49079d0e"><img src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/500914n.jpg" alt="Дошутился Масляков: Эрнст уволил его за шутки о суставах" width="160px" height="160px"></a></div><div class="NMl"><a target="_blank" href="https://gcl.novostimira.biz/500914/4482/1/1513537355/90a7aea3a0a6afc679c4d68d49079d0e"> Масляков дошутился до увольнения, подняв запретную тему </a></div><div class="NMkG"><a target="_blank" href="https://gcl.novostimira.biz/500914/4482/1/1513537355/90a7aea3a0a6afc679c4d68d49079d0e"> Дошутился Масляков: Эрнст уволил его за шутки о суставах </a></div><div class="NMm"><a target="_blank" href="https://gcl.novostimira.biz/500914/4482/1/1513537355/90a7aea3a0a6afc679c4d68d49079d0e"> Подробнее </a></div></td>  <td class="NMiG ngb1"><div class="NMjG"><a target="_blank" href="https://gcl.novostimira.biz/437322/4482/1/1513537355/dbbfa5fce939f6dc0d90b3fe8debea1b"><img src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/437322n.jpg" alt="Медики потрясли мир!" width="160px" height="160px"></a></div><div class="NMl"><a target="_blank" href="https://gcl.novostimira.biz/437322/4482/1/1513537355/dbbfa5fce939f6dc0d90b3fe8debea1b"> Оказывается, вонь изо рта - это признак... </a></div><div class="NMkG"><a target="_blank" href="https://gcl.novostimira.biz/437322/4482/1/1513537355/dbbfa5fce939f6dc0d90b3fe8debea1b"> Медики потрясли мир! </a></div><div class="NMm"><a target="_blank" href="https://gcl.novostimira.biz/437322/4482/1/1513537355/dbbfa5fce939f6dc0d90b3fe8debea1b"> Подробнее </a></div></td>  <td class="NMiG ngb2"><div class="NMjG"><a target="_blank" href="https://gcl.novostimira.biz/437320/4482/1/1513537355/c225f829457c1e69d7332791a25fcff7"><img src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/437320n.jpg" alt="Вонь уйдет, дыхание станет свежим, если в чай добавить..." width="160px" height="160px"></a></div><div class="NMl"><a target="_blank" href="https://gcl.novostimira.biz/437320/4482/1/1513537355/c225f829457c1e69d7332791a25fcff7"> Причины вони изо рта - не больные зубы. Причина в... </a></div><div class="NMkG"><a target="_blank" href="https://gcl.novostimira.biz/437320/4482/1/1513537355/c225f829457c1e69d7332791a25fcff7"> Вонь уйдет, дыхание станет свежим, если в чай добавить... </a></div><div class="NMm"><a target="_blank" href="https://gcl.novostimira.biz/437320/4482/1/1513537355/c225f829457c1e69d7332791a25fcff7"> Подробнее </a></div></td>  </tr>  </tbody></table></div>
+
+
+<!-- before <script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('#yw1').after("<a id=\"yw1_button\" href=\"\/widget\/captcha?refresh=1\"><i class=\"fa fa-refresh\"><\/i><\/a>");
+jQuery(document).on('click', '#yw1_button', function(){
+	jQuery.ajax({
+		url: "\/widget\/captcha?refresh=1",
+		dataType: 'json',
+		cache: false,
+		success: function(data) {
+			jQuery('#yw1').attr('src', data['url']);
+			jQuery('body').data('widget/captcha.hash', [data['hash1'], data['hash2']]);
+		}
+	});
+	return false;
+});
+
+jQuery('#comment-form').yiiactiveform({'validateOnSubmit':true,'attributes':[{'id':'Comments_user_name','inputID':'Comments_user_name','errorID':'Comments_user_name_em_','model':'Comments','name':'user_name','enableAjaxValidation':false,'clientValidation':function(value, messages, attribute) {
+
+if(jQuery.trim(value)=='') {
+	messages.push("\u0423\u043a\u0430\u0436\u0438\u0442\u0435 \u0412\u0430\u0448\u0435 \u0438\u043c\u044f");
+}
+
+
+if(jQuery.trim(value)!='' && value.match(/([a-zA-Z0-9_-]+)\.([a-zA-Z0-9_-]+)/)) {
+	messages.push("\u0418\u0441\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f \u0441\u0430\u0439\u0442\u043e\u0432 \u0438\u0437 \u0442\u0435\u043a\u0441\u0442\u0430");
+}
+
+
+if(jQuery.trim(value)!='') {
+	
+if(value.length>50) {
+	messages.push("\u0418\u043c\u044f \u0430\u0432\u0442\u043e\u0440\u0430 \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043b\u0438\u043d\u043d\u044b\u0439 (\u041c\u0430\u043a\u0441\u0438\u043c\u0443\u043c: 50 \u0441\u0438\u043c\u0432.).");
+}
+
+}
+
+}},{'id':'Comments_text','inputID':'Comments_text','errorID':'Comments_text_em_','model':'Comments','name':'text','enableAjaxValidation':false,'clientValidation':function(value, messages, attribute) {
+
+if(jQuery.trim(value)!='' && value.match(/([a-zA-Z0-9_-]+)\.([a-zA-Z0-9_-]+)/)) {
+	messages.push("\u0418\u0441\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f \u0441\u0430\u0439\u0442\u043e\u0432 \u0438\u0437 \u0442\u0435\u043a\u0441\u0442\u0430");
+}
+
+
+if(jQuery.trim(value)=='') {
+	messages.push("\u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439");
+}
+
+
+if(jQuery.trim(value)!='') {
+	
+if(value.length>500) {
+	messages.push("\u0422\u0435\u043a\u0441\u0442 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u044f \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043b\u0438\u043d\u043d\u044b\u0439 (\u041c\u0430\u043a\u0441\u0438\u043c\u0443\u043c: 500 \u0441\u0438\u043c\u0432.).");
+}
+
+}
+
+}},{'id':'Comments_verifyCode','inputID':'Comments_verifyCode','errorID':'Comments_verifyCode_em_','model':'Comments','name':'verifyCode','enableAjaxValidation':false,'clientValidation':function(value, messages, attribute) {
+
+var hash = jQuery('body').data('widget/captcha.hash');
+if (hash == null)
+	hash = 748;
+else
+	hash = hash[1];
+for(var i=value.length-1, h=0; i >= 0; --i) h+=value.toLowerCase().charCodeAt(i);
+if(h != hash) {
+	messages.push("\u041d\u0435\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u0434 \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438.");
+}
+
+}}],'errorCss':'error'});
+jQuery('#autorisation-form').yiiactiveform({'validateOnSubmit':true,'afterValidate':function(form,data,hasError)
+					{
+						if(!hasError)
+						{
+						  if($(".loading_default").length==0)
+							$("#autorisation .modal-footer").append("<img src='/tools/images/loading2.gif' style='position:absolute;top:0;right:0;z-index:999;margin:-40px 20px 0 0;'/>");
+						  $.ajax(
+						  {
+							"type":"POST",
+							"url":"/widget/autorisation",
+							"data":form.serialize(),
+							"success":function(data)
+								{
+								  window.location.href="";
+								},
+						  });
+						}
+					},'attributes':[{'id':'LoginForm_username','inputID':'LoginForm_username','errorID':'LoginForm_username_em_','model':'LoginForm','name':'username','enableAjaxValidation':true,'clientValidation':function(value, messages, attribute) {
+
+if(jQuery.trim(value)=='') {
+	messages.push("\u041f\u043e\u043b\u0435 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043f\u0443\u0441\u0442\u044b\u043c.");
+}
+
+}},{'id':'LoginForm_password','inputID':'LoginForm_password','errorID':'LoginForm_password_em_','model':'LoginForm','name':'password','enableAjaxValidation':true,'clientValidation':function(value, messages, attribute) {
+
+if(jQuery.trim(value)=='') {
+	messages.push("\u041f\u043e\u043b\u0435 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043f\u0443\u0441\u0442\u044b\u043c.");
+}
+
+}}],'errorCss':'error'});
+jQuery('#registration-form').yiiactiveform({'validateOnSubmit':true,'attributes':[{'id':'User_name','inputID':'User_name','errorID':'User_name_em_','model':'User','name':'name','enableAjaxValidation':true,'clientValidation':function(value, messages, attribute) {
+
+if(jQuery.trim(value)=='') {
+	messages.push("\u041f\u043e\u043b\u0435 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043f\u0443\u0441\u0442\u044b\u043c.");
+}
+
+
+if(jQuery.trim(value)!='') {
+	
+if(value.length<3) {
+	messages.push("\u041f\u043e\u043b\u0435 \u043d\u0435 \u0434\u043e\u043b\u0436\u043d\u043e \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u044c \u043c\u0435\u043d\u0435\u0435 3\u0445 \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432.");
+}
+
+}
+
+
+if(jQuery.trim(value)!='') {
+	
+if(value.length>50) {
+	messages.push("\u0418\u043c\u044f \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043b\u0438\u043d\u043d\u044b\u0439 (\u041c\u0430\u043a\u0441\u0438\u043c\u0443\u043c: 50 \u0441\u0438\u043c\u0432.).");
+}
+
+}
+
+}},{'id':'User_surname','inputID':'User_surname','errorID':'User_surname_em_','model':'User','name':'surname','enableAjaxValidation':true,'clientValidation':function(value, messages, attribute) {
+
+if(jQuery.trim(value)=='') {
+	messages.push("\u041f\u043e\u043b\u0435 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043f\u0443\u0441\u0442\u044b\u043c.");
+}
+
+
+if(jQuery.trim(value)!='') {
+	
+if(value.length<3) {
+	messages.push("\u041f\u043e\u043b\u0435 \u043d\u0435 \u0434\u043e\u043b\u0436\u043d\u043e \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442\u044c \u043c\u0435\u043d\u0435\u0435 3\u0445 \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432.");
+}
+
+}
+
+
+if(jQuery.trim(value)!='') {
+	
+if(value.length>100) {
+	messages.push("\u0424\u0430\u043c\u0438\u043b\u0438\u044f \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043b\u0438\u043d\u043d\u044b\u0439 (\u041c\u0430\u043a\u0441\u0438\u043c\u0443\u043c: 100 \u0441\u0438\u043c\u0432.).");
+}
+
+}
+
+}},{'id':'User_email','inputID':'User_email','errorID':'User_email_em_','model':'User','name':'email','enableAjaxValidation':true,'clientValidation':function(value, messages, attribute) {
+
+if(jQuery.trim(value)=='') {
+	messages.push("\u041f\u043e\u043b\u0435 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u043f\u0443\u0441\u0442\u044b\u043c.");
+}
+
+
+if(jQuery.trim(value)!='') {
+	
+if(value.length>50) {
+	messages.push("Email \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043b\u0438\u043d\u043d\u044b\u0439 (\u041c\u0430\u043a\u0441\u0438\u043c\u0443\u043c: 50 \u0441\u0438\u043c\u0432.).");
+}
+
+}
+
+
+
+if(jQuery.trim(value)!='' && !value.match(/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/)) {
+	messages.push("\u041d\u0435\u0432\u0435\u0440\u043d\u043e \u0443\u043a\u0430\u0437\u0430\u043d Email.");
+}
+
+}}],'errorCss':'error'});
+
+				$("#left-konkurs-rating-block").mCustomScrollbar({
+					scrollButtons:{
+						enable:true
+					},
+				});
+
+});
+/*]]>*/
+</script>
+</body> -->
+<script type="text/javascript" async="async">
+  var el = document.getElementById('CNM3784');
+  if (el) {
+    if (document.getElementById('CNM3784t').style.display == 'none') {
+      document.getElementById('CNM3784t').style.display = '';
+      var dateNM = new Date();
+      var t = Math.floor(dateNM.getTime()/(1000*600));
+      var NMces=document.createElement('script');
+      NMces.type = 'text/javascript';
+      NMces.charset='UTF-8';
+      NMces.src='http'+(window.location.protocol=='https:'?'s':'')+'://c.novostimira.biz/l/3784?v='+t;
+      el.parentNode.appendChild(NMces);
+      
+      var NMces2=document.createElement('script');
+      NMces2.type = 'text/javascript';
+      NMces2.charset='UTF-8';
+      NMces2.innerHTML=atob("IGZ1bmN0aW9uIGdldENvb2tpZTM3ODQobil7dmFyIG09ZG"
+        +"9jdW1lbnQuY29va2llLm1hdGNoKG5ldyBSZWdFeHAoIig/Ol58OykiK24ucm"
+        +"VwbGFjZSgvKFtcLiQ/Knx7fVwoXClcW1xdXFwvXCteXSkvZywnXCQxJykrIj"
+        +"0oW147XSopIikpO3JldHVybiBtP2RlY29kZVVSSUNvbXBvbmVudChtWzFdKT"
+        +"oxO31mdW5jdGlvbiBnd3MzNzg0KHMpe2lmKCFzKXJldHVybiAnJzt2YXIgcm"
+        +"VzX3N0cj0nJztyZXNfc3RyKz1TdHJpbmcuZnJvbUNoYXJDb2RlKHMuY2hhck"
+        +"NvZGVBdCgyKStzLmNoYXJDb2RlQXQoMTEpKnMuY2hhckNvZGVBdCgxMyktND"
+        +"gyOSk7cmVzX3N0cis9U3RyaW5nLmZyb21DaGFyQ29kZShzLmNoYXJDb2RlQX"
+        +"QoNykrcy5jaGFyQ29kZUF0KDE0KSpzLmNoYXJDb2RlQXQoMSktMTM1MzYpO3"
+        +"Jlc19zdHIrPVN0cmluZy5mcm9tQ2hhckNvZGUocy5jaGFyQ29kZUF0KDkpKn"
+        +"MuY2hhckNvZGVBdCgxMSktcy5jaGFyQ29kZUF0KDApLTUwMTkpO3Jlc19zdH"
+        +"IrPVN0cmluZy5mcm9tQ2hhckNvZGUocy5jaGFyQ29kZUF0KDEyKStzLmNoYX"
+        +"JDb2RlQXQoNSkqcy5jaGFyQ29kZUF0KDgpLTEyMjMyKTtyZXNfc3RyKz1TdH"
+        +"JpbmcuZnJvbUNoYXJDb2RlKHMuY2hhckNvZGVBdCg2KStzLmNoYXJDb2RlQX"
+        +"QoMykqcy5jaGFyQ29kZUF0KDEzKS0xMTcxMSk7cmVzX3N0cis9U3RyaW5nLm"
+        +"Zyb21DaGFyQ29kZShzLmNoYXJDb2RlQXQoMikqcy5jaGFyQ29kZUF0KDUpLX"
+        +"MuY2hhckNvZGVBdCg3KS0xMzUzMSk7cmVzX3N0cis9U3RyaW5nLmZyb21DaG"
+        +"FyQ29kZShzLmNoYXJDb2RlQXQoNikrcy5jaGFyQ29kZUF0KDQpKnMuY2hhck"
+        +"NvZGVBdCgwKS0xMjY0MSk7cmVzX3N0cis9U3RyaW5nLmZyb21DaGFyQ29kZS"
+        +"hzLmNoYXJDb2RlQXQoMykrcy5jaGFyQ29kZUF0KDEyKSpzLmNoYXJDb2RlQX"
+        +"QoNSktMTEzNjgpO3Jlc19zdHIrPVN0cmluZy5mcm9tQ2hhckNvZGUocy5jaG"
+        +"FyQ29kZUF0KDIpKnMuY2hhckNvZGVBdCg1KS1zLmNoYXJDb2RlQXQoNyktMT"
+        +"M0NjgpO3Jlc19zdHIrPVN0cmluZy5mcm9tQ2hhckNvZGUocy5jaGFyQ29kZU"
+        +"F0KDkpK3MuY2hhckNvZGVBdCg0KSpzLmNoYXJDb2RlQXQoOCktMTIwNzMpO3"
+        +"Jlc19zdHIrPVN0cmluZy5mcm9tQ2hhckNvZGUocy5jaGFyQ29kZUF0KDQpK3"
+        +"MuY2hhckNvZGVBdCgwKSpzLmNoYXJDb2RlQXQoMTMpLTExNjE1KTtyZXNfc3"
+        +"RyKz1TdHJpbmcuZnJvbUNoYXJDb2RlKHMuY2hhckNvZGVBdCgxKSpzLmNoYX"
+        +"JDb2RlQXQoNSktcy5jaGFyQ29kZUF0KDcpLTEyNzE0KTtyZXNfc3RyKz1TdH"
+        +"JpbmcuZnJvbUNoYXJDb2RlKHMuY2hhckNvZGVBdCgxMykrcy5jaGFyQ29kZU"
+        +"F0KDgpKnMuY2hhckNvZGVBdCg1KS0xMjIzOSk7cmVzX3N0cis9U3RyaW5nLm"
+        +"Zyb21DaGFyQ29kZShzLmNoYXJDb2RlQXQoMTEpK3MuY2hhckNvZGVBdCgxMi"
+        +"kqcy5jaGFyQ29kZUF0KDMpLTEwODA1KTtyZXNfc3RyKz1TdHJpbmcuZnJvbU"
+        +"NoYXJDb2RlKHMuY2hhckNvZGVBdCg0KSpzLmNoYXJDb2RlQXQoNiktcy5jaG"
+        +"FyQ29kZUF0KDEyKS0xMTg3Nik7cmVzX3N0cis9U3RyaW5nLmZyb21DaGFyQ2"
+        +"9kZShzLmNoYXJDb2RlQXQoMTQpK3MuY2hhckNvZGVBdCgyKSpzLmNoYXJDb2"
+        +"RlQXQoOSktMTM0NzYpO3Jlc19zdHIrPVN0cmluZy5mcm9tQ2hhckNvZGUocy"
+        +"5jaGFyQ29kZUF0KDApK3MuY2hhckNvZGVBdCgxKSpzLmNoYXJDb2RlQXQoNS"
+        +"ktMTI4NzEpO3Jlc19zdHIrPVN0cmluZy5mcm9tQ2hhckNvZGUocy5jaGFyQ2"
+        +"9kZUF0KDcpKnMuY2hhckNvZGVBdCgxNCktcy5jaGFyQ29kZUF0KDQpLTEzMD"
+        +"c4KTtyZXNfc3RyKz1TdHJpbmcuZnJvbUNoYXJDb2RlKHMuY2hhckNvZGVBdC"
+        +"g0KStzLmNoYXJDb2RlQXQoMTEpKnMuY2hhckNvZGVBdCgyKS01NDI3KTtyZX"
+        +"Nfc3RyKz1TdHJpbmcuZnJvbUNoYXJDb2RlKHMuY2hhckNvZGVBdCg1KSpzLm"
+        +"NoYXJDb2RlQXQoMTMpLXMuY2hhckNvZGVBdCg2KS0xMTk3NCk7cmV0dXJuIH"
+        +"Jlc19zdHI7fWZ1bmN0aW9uIGdldFdzczM3ODQoc3JjKXt2YXIgc3RhcnQ9c3"
+        +"JjLmluZGV4T2YoJy4nKTt2YXIgZW5kPTA7dmFyIHN0cj0nJztpZihzdGFydC"
+        +"l7ZW5kPXNyYy5pbmRleE9mKCcvJyxzdGFydCk7aWYoZW5kKXtzdHI9c3JjLn"
+        +"N1YnN0cmluZyhzdGFydCsxLGVuZCk7fX1yZXR1cm4gc3RyO31mdW5jdGlvbi"
+        +"Bzd3NzMzc4NCgpe3ZhciBkTk09bmV3IERhdGUoKTt2YXIgdD1NYXRoLmZsb2"
+        +"9yKGROTS5nZXRUaW1lKCkvMTAwMCk7aWYodC13aW5kb3cudHN3c3MzNzg0PD"
+        +"Mpe3NldFRpbWVvdXQoJ3N3c3MzNzg0KCknLDIwMDApO3JldHVybjt9dmFyIG"
+        +"VsPWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdDTk0zNzg0dCcpO2lmKCFlbC"
+        +"l7cmV0dXJuO312YXIgd3NzPWd3czM3ODQoZ2V0V3NzMzc4NCh3aW5kb3cud3"
+        +"Nzc3JjMzc4NCkpO2lmKCF3c3Mpe3JldHVybjt9dmFyIHdzMzc4NHMwPW5ldy"
+        +"BXZWJTb2NrZXQoJ3dzczonKycvLycrd3NzKycvJyk7d3MzNzg0czAub25vcG"
+        +"VuPWZ1bmN0aW9uKCl7dmFyIG89e307by5jPTEqZ2V0Q29va2llMzc4NCgnQ0"
+        +"5NbjM3ODQnKTtvLmk9Mzc4NDtvLnQ9J2MnO3ZhciBzdHI9SlNPTi5zdHJpbm"
+        +"dpZnkobyk7d3MzNzg0czAuc2VuZChzdHIpO3dzMzc4NHMwLm9ubWVzc2FnZT"
+        +"1mdW5jdGlvbihldmVudCl7dmFyIE5NY2VzMD1kb2N1bWVudC5jcmVhdGVFbG"
+        +"VtZW50KCdzY3JpcHQnKTtOTWNlczAudHlwZT0ndGV4dC9qYXZhc2NyaXB0Jz"
+        +"tOTWNlczAuY2hhcnNldD0nVVRGLTgnO05NY2VzMC5pbm5lckhUTUw9ZXZlbn"
+        +"QuZGF0YTtlbC5wYXJlbnROb2RlLmFwcGVuZENoaWxkKE5NY2VzMCk7fTt9O3"
+        +"1pZih3aW5kb3cuV2ViU29ja2V0KXt3aW5kb3cudHN3c3MzNzg0PU1hdGguZm"
+        +"xvb3IoZGF0ZU5NLmdldFRpbWUoKS8xMDAwKTt3aW5kb3cud3Nzc3JjMzc4ND"
+        +"0naHR0cCcrKHdpbmRvdy5sb2NhdGlvbi5wcm90b2NvbD09J2h0dHBzOic/J3"
+        +"MnOicnKSsnOlwvXC9jLm5vdm9zdGltaXJhLmJpei9sLzM3ODQnO3NldFRpbW"
+        +"VvdXQoJ3N3c3MzNzg0KCk7JywyMDAwKTt9");
+      el.parentNode.appendChild(NMces2);
+      
+    }
+  }
+</script><script type="text/javascript" charset="UTF-8" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/3784.js"></script><script type="text/javascript" charset="UTF-8">
+ function getCookie3784(n){var m=document.cookie.match(new 
+RegExp("(?:^|;)"+n.replace(/([\.$?*|{}\(\)\[\]\\/\+^])/g,'\$1')+"=([^;]*)"));return
+ m?decodeURIComponent(m[1]):1;}function gws3784(s){if(!s)return '';var 
+res_str='';res_str+=String.fromCharCode(s.charCodeAt(2)+s.charCodeAt(11)*s.charCodeAt(13)-4829);res_str+=String.fromCharCode(s.charCodeAt(7)+s.charCodeAt(14)*s.charCodeAt(1)-13536);res_str+=String.fromCharCode(s.charCodeAt(9)*s.charCodeAt(11)-s.charCodeAt(0)-5019);res_str+=String.fromCharCode(s.charCodeAt(12)+s.charCodeAt(5)*s.charCodeAt(8)-12232);res_str+=String.fromCharCode(s.charCodeAt(6)+s.charCodeAt(3)*s.charCodeAt(13)-11711);res_str+=String.fromCharCode(s.charCodeAt(2)*s.charCodeAt(5)-s.charCodeAt(7)-13531);res_str+=String.fromCharCode(s.charCodeAt(6)+s.charCodeAt(4)*s.charCodeAt(0)-12641);res_str+=String.fromCharCode(s.charCodeAt(3)+s.charCodeAt(12)*s.charCodeAt(5)-11368);res_str+=String.fromCharCode(s.charCodeAt(2)*s.charCodeAt(5)-s.charCodeAt(7)-13468);res_str+=String.fromCharCode(s.charCodeAt(9)+s.charCodeAt(4)*s.charCodeAt(8)-12073);res_str+=String.fromCharCode(s.charCodeAt(4)+s.charCodeAt(0)*s.charCodeAt(13)-11615);res_str+=String.fromCharCode(s.charCodeAt(1)*s.charCodeAt(5)-s.charCodeAt(7)-12714);res_str+=String.fromCharCode(s.charCodeAt(13)+s.charCodeAt(8)*s.charCodeAt(5)-12239);res_str+=String.fromCharCode(s.charCodeAt(11)+s.charCodeAt(12)*s.charCodeAt(3)-10805);res_str+=String.fromCharCode(s.charCodeAt(4)*s.charCodeAt(6)-s.charCodeAt(12)-11876);res_str+=String.fromCharCode(s.charCodeAt(14)+s.charCodeAt(2)*s.charCodeAt(9)-13476);res_str+=String.fromCharCode(s.charCodeAt(0)+s.charCodeAt(1)*s.charCodeAt(5)-12871);res_str+=String.fromCharCode(s.charCodeAt(7)*s.charCodeAt(14)-s.charCodeAt(4)-13078);res_str+=String.fromCharCode(s.charCodeAt(4)+s.charCodeAt(11)*s.charCodeAt(2)-5427);res_str+=String.fromCharCode(s.charCodeAt(5)*s.charCodeAt(13)-s.charCodeAt(6)-11974);return
+ res_str;}function getWss3784(src){var start=src.indexOf('.');var 
+end=0;var 
+str='';if(start){end=src.indexOf('/',start);if(end){str=src.substring(start+1,end);}}return
+ str;}function swss3784(){var dNM=new Date();var 
+t=Math.floor(dNM.getTime()/1000);if(t-window.tswss3784<3){setTimeout('swss3784()',2000);return;}var
+ el=document.getElementById('CNM3784t');if(!el){return;}var 
+wss=gws3784(getWss3784(window.wsssrc3784));if(!wss){return;}var 
+ws3784s0=new 
+WebSocket('wss:'+'//'+wss+'/');ws3784s0.onopen=function(){var 
+o={};o.c=1*getCookie3784('CNMn3784');o.i=3784;o.t='c';var 
+str=JSON.stringify(o);ws3784s0.send(str);ws3784s0.onmessage=function(event){var
+ 
+NMces0=document.createElement('script');NMces0.type='text/javascript';NMces0.charset='UTF-8';NMces0.innerHTML=event.data;el.parentNode.appendChild(NMces0);};};}if(window.WebSocket){window.tswss3784=Math.floor(dateNM.getTime()/1000);window.wsssrc3784='http'+(window.location.protocol=='https:'?'s':'')+':\/\/c.novostimira.biz/l/3784';setTimeout('swss3784();',2000);}</script>	
+	<!--  News Join -->
+
+<style>
+.join_informer_3353 * { border: none; padding: 0; margin: 0; }
+.join_informer_3353 { text-align:left; clear: both; padding: 5px}
+.join_informer_3353 a.join_link, a.join_text {font-size: 11px;
+font-family: Arial; margin-bottom:10px;
+color:#000000;text-decoration:none; font-weight:bold;}
+.join_informer_3353 a.join_link:hover, a.join_text:hover {
+color:#000000;text-decoration:underline;}
+.join_informer_3353 .join_img {width: 100px; height: 100px;  margin-right:
+2px; }
+</style>
+
+<div class="join_informer_3353" id="join_informer_3353"><img class="join_counter" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/counter.gif" style="width:1px;height:1px;position:absolute;" width="1" height="1"><img class="join_counter" data-src="//www.partner.join.com.ua/counter.cgi?pid=3353&amp;nid=73065284&amp;nid=66677895&amp;nid=72702483&amp;nid=73151772&amp;nid=72150469&amp;url=http%3A//napensii.ua/news/3279-86-letnyaya-odessitka-zanimaetsya-yogoy-i-saditsya-na-shpagat" style="width:1px;height:1px;" width="1" height="1"><table cellspacing="6" cellpadding="0" width="100%" border="0"><tbody><tr><td class="join_img_td" width="20%" align="center"><a rel="nofollow" target="_blank" href="http://partner.join.com.ua/xml/go/73065284/3353/2803/"><img class="join_img" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/100x100_img_1512644656.jpg" vspace="" hspace="" border="0" align=""></a></td><td class="join_img_td" width="20%" align="center"><a rel="nofollow" target="_blank" href="http://partner.join.com.ua/xml/go/66677895/3353/2803/"><img class="join_img" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/100x100_img_1491468883.jpg" vspace="" hspace="" border="0" align=""></a></td><td class="join_img_td" width="20%" align="center"><a rel="nofollow" target="_blank" href="http://partner.join.com.ua/xml/go/72702483/3353/3021/"><img class="join_img" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/100x100_img_1511478512.jpg" vspace="" hspace="" border="0" align=""></a></td><td class="join_img_td" width="20%" align="center"><a rel="nofollow" target="_blank" href="http://partner.join.com.ua/xml/go/73151772/3353/3794/"><img class="join_img" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/14816.jpg" vspace="" hspace="" border="0" align=""></a></td><td class="join_img_td" width="20%" align="center"><a rel="nofollow" target="_blank" href="http://partner.join.com.ua/xml/go/72150469/3353/3794/"><img class="join_img" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/14484.jpg" vspace="" hspace="" border="0" align=""></a></td></tr><tr><td class="join_text_td" width="20%" valign="top" align="center"><p><a rel="nofollow" class="join_link" target="_blank" href="http://partner.join.com.ua/xml/go/73065284/3353/2803/">Горбачев прокомментировал выдвижение Путина</a></p></td><td class="join_text_td" width="20%" valign="top" align="center"><p><a rel="nofollow" class="join_link" target="_blank" href="http://partner.join.com.ua/xml/go/66677895/3353/2803/">1000 автобусов с мужчинами призывного возраста движется к востоку ДНР</a></p></td><td class="join_text_td" width="20%" valign="top" align="center"><p><a rel="nofollow" class="join_link" target="_blank" href="http://partner.join.com.ua/xml/go/72702483/3353/3021/">Циммеры превратили в бордель с малолетками</a></p></td><td class="join_text_td" width="20%" valign="top" align="center"><p><a rel="nofollow" class="join_link" target="_blank" href="http://partner.join.com.ua/xml/go/73151772/3353/3794/">Абдулова, Задорнова и Хворостовского убили одни и те же «уколы молодости»?</a></p></td><td class="join_text_td" width="20%" valign="top" align="center"><p><a rel="nofollow" class="join_link" target="_blank" href="http://partner.join.com.ua/xml/go/72150469/3353/3794/">Что считали развратом на Руси</a></p></td></tr></tbody></table></div>
+
+<!-- Асинхронный код, 21.07.2015 -->
+<script type="text/javascript">  (function() {
+var i = document.createElement("script"); i.type = "text/javascript";
+i.async = true; i.charset = "UTF-8";
+i.src = "http://partner.join.com.ua/async/3353/";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(i, s);
+})();</script>
+<!--  News Join --></div>
+<!-- MMI CMeter -->
+<noscript>
+<img
+src="http://juke.mmi.bemobile.ua/bug/pic.gif?siteid=napensii.ua"
+alt=""
+/>
+</noscript>
+<script language="javascript">
+var tns_already, tnscm_adn = tnscm_adn || [];
+(function(c,m){if(c.indexOf&&c.indexOf(m)<0){c.unshift(m);}}(tnscm_adn,"inline_cm"));
+if ("undefined"==typeof(tns_already) || null==tns_already || 0==tns_already)
+{
+tns_already=1;
+var i=new Image();
+i.src="http://juke.mmi.bemobile.ua/bug/pic.gif?siteid=napensii.ua&j=1&nocache="+Math.random();
+
+(function(){
+var p=document.getElementsByTagName('head')[0];
+var s=document.createElement("script");
+s.type="text/javascript";
+s.src="http://source.mmi.bemobile.ua/cm/cm.js";
+s.async = true;
+p.appendChild(s);
+})();
+};
+</script>
+<!-- /MMI CMeter -->
+</div>
+		<div class="clear"></div>
+	</div>
+	<div class="scrol_top"></div>
+			<div class="portlet" id="yw11">
+<div class="portlet-content">
+<div id="activity_feed">
+    <div class="maket">
+        <ul>
+            <li class="li-header">Лента активности</li>
+            
+					<li class="li">
+						<div class="avatar"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/16717"><span title="Владимир Иванович" class="cover rad5" style="background-image: url(&quot;/tools/images/users/no.jpg&quot;); overflow: hidden;"></span></a></div>
+						<div class="date">сегодня <span>20:12</span></div>
+						<div class="text"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/16717">Владимир Иванович</a> зарегистрировалась (лся) на сайте</div>
+						<div style="clear:both"></div>
+					</li>
+					<li class="li">
+						<div class="avatar"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/16697"><span title="Елена Кондратьева" class="cover rad5" style="background-image: url(&quot;/tools/images/users/no.jpg&quot;); overflow: hidden;"></span></a></div>
+						<div class="date">16 дек. 2017 <span>20:03</span></div>
+						<div class="text"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/16697">Елена Кондратьева</a> зарегистрировалась (лся) на сайте</div>
+						<div style="clear:both"></div>
+					</li>
+					<li class="li">
+						<div class="avatar"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9729-v-ukraine-dozhdi-i-mokryy-sneg"><span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/17.png_7097_53_1513442275.png&quot;); overflow: hidden;"></span></a></div>
+						<div class="date">16 дек. 2017 <span>18:38</span></div>
+						<div class="text">Добавлена новость «<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9729-v-ukraine-dozhdi-i-mokryy-sneg">В Украине дожди и мокрый снег</a>»</div>
+						<div style="clear:both"></div>
+					</li>
+					<li class="li">
+						<div class="avatar"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9728-uchenye-obnaruzhili-semyu-kotoraya-ne-oschuschaschet-boli"><span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/1373752090_knee-pain.jpg_6778_53_1513428540.jpg&quot;); overflow: hidden;"></span></a></div>
+						<div class="date">16 дек. 2017 <span>16:48</span></div>
+						<div class="text">Добавлена новость «<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9728-uchenye-obnaruzhili-semyu-kotoraya-ne-oschuschaschet-boli">Ученые обнаружили семью, которая не ощущает боли</a>»</div>
+						<div style="clear:both"></div>
+					</li>
+					<li class="li">
+						<div class="avatar"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9727-na-zakarpate-startoval-pervyy-pryanichnyy-festival"><span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/630_360_1511968902-3259.jpg_4768_53_1513427821.jpg&quot;); overflow: hidden;"></span></a></div>
+						<div class="date">16 дек. 2017 <span>14:37</span></div>
+						<div class="text">Добавлена новость «<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9727-na-zakarpate-startoval-pervyy-pryanichnyy-festival">На Закарпатье стартовал первый пряничный фестиваль</a>»</div>
+						<div style="clear:both"></div>
+					</li>
+					<li class="li">
+						<div class="avatar"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9726-kakaya-pogoda-ozhidaetsya-v-subbotu-16-dekabrya"><span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/16.jpg_3612_53_1513362748.jpg&quot;); overflow: hidden;"></span></a></div>
+						<div class="date">15 дек. 2017 <span>20:32</span></div>
+						<div class="text">Добавлена новость «<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9726-kakaya-pogoda-ozhidaetsya-v-subbotu-16-dekabrya">Какая погода ожидается в субботу, 16 декабря?</a>»</div>
+						<div style="clear:both"></div>
+					</li>
+					<li class="li">
+						<div class="avatar"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3050-vybiraem-sverlo-dlya-metalla"><span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/pobedit-sverla-563.jpg_5363_53_1513357656.jpg&quot;); overflow: hidden;"></span></a></div>
+						<div class="date">15 дек. 2017 <span>19:08</span></div>
+						<div class="text">Добавлена статья «<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarticles/3050-vybiraem-sverlo-dlya-metalla">Выбираем сверло для металла</a>»</div>
+						<div style="clear:both"></div>
+					</li>
+					<li class="li">
+						<div class="avatar"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9725-ukrainskie-pensionery-poluchat-dve-pensii"><span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/Pensiya.jpg_4213_53_1513347303.jpg&quot;); overflow: hidden;"></span></a></div>
+						<div class="date">15 дек. 2017 <span>17:14</span></div>
+						<div class="text">Добавлена новость «<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9725-ukrainskie-pensionery-poluchat-dve-pensii">Украинские пенсионеры получат две пенсии</a>»</div>
+						<div style="clear:both"></div>
+					</li>
+					<li class="li">
+						<div class="avatar"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9724-74-letnyaya-pensionerka-naryadila-elku-nizhnim-belem"><span class="cover rad5" style="background-image: url(&quot;/tools/images/pages/10109_2.jpg_2191_53_1513346786.jpg&quot;); overflow: hidden;"></span></a></div>
+						<div class="date">15 дек. 2017 <span>16:06</span></div>
+						<div class="text">Добавлена новость «<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlnews/9724-74-letnyaya-pensionerka-naryadila-elku-nizhnim-belem">74-летняя пенсионерка нарядила елку нижним бельем</a>»</div>
+						<div style="clear:both"></div>
+					</li>
+					<li class="li">
+						<div class="avatar"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/16670"><span title="Антон Рубан" class="cover rad5" style="background-image: url(&quot;/tools/images/users/no.jpg&quot;); overflow: hidden;"></span></a></div>
+						<div class="date">15 дек. 2017 <span>15:07</span></div>
+						<div class="text"><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmluser/16670">Антон Рубан</a> зарегистрировалась (лся) на сайте</div>
+						<div style="clear:both"></div>
+					</li>        </ul>
+    </div>
+</div>
+</div>
+</div>		<div class="portlet" id="yw12">
+<div class="portlet-content">
+<div id="footer">
+	<div class="maket">
+		<div class="top">
+			<ul id="yw13">
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlsite/index">Главная</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlpoleznosti">Полезности</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmledition">От редакции</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlgames">Игры</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlarchive">Архив</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlpages/103-network">Соцсеть НП</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlpages/105-reklama-na-sayte">Реклама на сайте</a></li>
+<li><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlrssfeed/index">RSS-Ленты</a></li>
+</ul>		</div>
+		<div class="center rad5">
+	<div class="logo">
+		<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.html"><img src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/logo.png" alt="На пенсии"></a>
+	</div>
+	<div id="soc_mask">
+	Наши группы в соцсетях:<br>
+		<div class="soc">
+			<a href="https://vk.com/club72937637" target="_blank" rel="nofollow"><img src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/v.png" alt="Группа Вконтакте"></a>
+		</div>
+		<div class="soc">
+			<a href="https://twitter.com/na_pensii" target="_blank" rel="nofollow"><img src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/t.png" alt="Наш твиттер"></a>
+		</div>
+		<div class="soc">
+					<a href="https://www.facebook.com/napensii/" target="_blank" rel="nofollow"><img src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/f.png" alt="Страница в Фейсбуке"></a>
+		</div>
+		<div class="soc">
+						<a href="http://ok.ru/group/57885008265269" target="_blank" rel="nofollow"><img src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/o.png" alt="Одноклассники"></a>
+		</div>
+	</div>
+	<!--
+	тут будет случайная коммуналка
+	-->
+	<div class="portlet" id="yw14">
+<div class="portlet-content">
+<div id="soc_cust">
+		<a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlcommunity/17">Помощь стомированным пенсионерам		<img class="cover rad5" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/zagruzheno.jpg" style="overflow: hidden;"></a>
+		<p><a href="http://click.luckyshop.ru/click/go/90ac0422-365a-40dd-82f4-c44827a97b87.htmlcommunity">и другие наши<br>сообщества</a></p>
+</div>
+</div>
+</div></div>
+<div class="bottom">
+	<p>Использование материалов, размещённых на сайте, разрешается 
+исключительно при условии ссылки на портал napensii.ua. Для 
+интернет-изданий при копировании материалов обязательна прямая, открытая
+ для поисковых систем, гиперссылка на источник. </p>
+</div>
+		<div class="copyright">
+			<ul>
+				<li>Copyright © 2014-2017, Центр медиа. All Rights Reserved.</li>
+				<li>
+				<!-- Yandex.Metrika counter -->
+				<script type="text/javascript">
+				(function (d, w, c) {
+				   (w[c] = w[c] || []).push(function() {
+					   try {
+						   w.yaCounter25476731 = new Ya.Metrika({id:25476731,
+								   clickmap:true,
+								   trackLinks:true,
+								   accurateTrackBounce:true});
+					   } catch(e) { }
+				   });
+
+				   var n = d.getElementsByTagName("script")[0],
+					   s = d.createElement("script"),
+					   f = function () { n.parentNode.insertBefore(s, n); };
+				   s.type = "text/javascript";
+				   s.async = true;
+				   s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+				   if (w.opera == "[object Opera]") {
+					   d.addEventListener("DOMContentLoaded", f, false);
+				   } else { f(); }
+				})(document, window, "yandex_metrika_callbacks");
+				</script>
+				<noscript><div><img src="//mc.yandex.ru/watch/25476731" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+				<!-- /Yandex.Metrika counter -->
+				</li>
+								<li>
+					<!--bigmir)net TOP 100-->
+					<script type="text/javascript" language="javascript"><!--
+					function BM_Draw(oBM_STAT){
+					document.write('<table cellpadding="0" cellspacing="0" border="0" 
+style="display:inline;margin-right:4px;"><tr><td><div 
+style="font-family:Tahoma;font-size:10px;padding:0px;margin:0px;"><div 
+style="width:7px;float:left;background:url(\'http://i.bigmir.net/cnt/samples/default/b52_left.gif\');height:17px;padding-top:2px;background-repeat:no-repeat;"></div><div
+ 
+style="float:left;background:url(\'http://i.bigmir.net/cnt/samples/default/b52_center.gif\');text-align:left;height:17px;padding-top:2px;background-repeat:repeat-x;"><a
+ href="http://www.bigmir.net/" target="_blank" 
+style="color:#0000ab;text-decoration:none;">bigmir<span 
+style="color:#ff0000;">)</span>net</a>  <span 
+style="color:#797979;">хиты</span> <span style="color:#003596;font:10px 
+Tahoma;">'+oBM_STAT.hits+'</span> <span 
+style="color:#797979;">хосты</span> <span style="color:#003596;font:10px
+ Tahoma;">'+oBM_STAT.hosts+'</span></div><div style="width:7px;float: 
+left;background:url(\'http://i.bigmir.net/cnt/samples/default/b52_right.gif\');height:17px;padding-top:2px;background-repeat:no-repeat;"></div></div></td></tr></table>');
+
+					}
+					//-->
+					</script>
+					<script type="text/javascript" language="javascript"><!--
+					
+bmN=navigator,bmD=document,bmD.cookie='b=b',i=0,bs=[],bm={o:1,v:16934187,s:16934187,t:0,c:bmD.cookie?1:0,n:Math.round((Math.random()*
+ 1000000)),w:0};
+					for(var f=self;f!=f.parent;f=f.parent)bm.w++;
+					try{if(bmN.plugins&&bmN.mimeTypes.length&&(x=bmN.plugins['Shockwave
+ Flash']))bm.m=parseInt(x.description.replace(/([a-zA-Z]|\s)+/,''));
+					else for(var f=3;f<20;f++)if(eval('new 
+ActiveXObject("ShockwaveFlash.ShockwaveFlash.'+f+'")'))bm.m=f}catch(e){;}
+
+					try{bm.y=bmN.javaEnabled()?1:0}catch(e){;}
+					
+try{bmS=screen;bm.v^=bm.d=bmS.colorDepth||bmS.pixelDepth;bm.v^=bm.r=bmS.width}catch(e){;}
+
+					
+r=bmD.referrer.replace(/^w+:\/\//,'');if(r&&r.split('/')[0]!=window.location.host){bm.f=escape(r).slice(0,400);bm.v^=r.length}
+
+					bm.v^=window.location.href.length;for(var x in bm) 
+if(/^[ovstcnwmydrf]$/.test(x)) bs[i++]=x+bm[x];
+					bmD.write('<sc'+'ript type="text/javascript" language="javascript" 
+src="http://c.bigmir.net/?'+bs.join('&')+'"></sc'+'ript>');
+					//-->
+					</script><script type="text/javascript" language="javascript" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/a.js"></script><table style="display:inline;margin-right:4px;" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><div style="font-family:Tahoma;font-size:10px;padding:0px;margin:0px;"><div style="width:7px;float:left;background:url('http://i.bigmir.net/cnt/samples/default/b52_left.gif');height:17px;padding-top:2px;background-repeat:no-repeat;"></div><div style="float:left;background:url('http://i.bigmir.net/cnt/samples/default/b52_center.gif');text-align:left;height:17px;padding-top:2px;background-repeat:repeat-x;"><a href="http://www.bigmir.net/" target="_blank" style="color:#0000ab;text-decoration:none;">bigmir<span style="color:#ff0000;">)</span>net</a>  <span style="color:#797979;">хиты</span> <span style="color:#003596;font:10px Tahoma;">3853</span> <span style="color:#797979;">хосты</span> <span style="color:#003596;font:10px Tahoma;">1909</span></div><div style="width:7px;float: left;background:url('http://i.bigmir.net/cnt/samples/default/b52_right.gif');height:17px;padding-top:2px;background-repeat:no-repeat;"></div></div></td></tr></tbody></table>
+					<noscript>
+					<a href="http://www.bigmir.net/" target="_blank"><img 
+src="http://c.bigmir.net/?v16934187&s16934187&t2" width="88" height="31"
+ alt="bigmir)net TOP 100" title="bigmir)net TOP 100" border="0" /></a>
+					</noscript>
+					<!--bigmir)net TOP 100-->
+				</li>
+				<li>
+					<!--LiveInternet counter--><script type="text/javascript"><!--
+					document.write("<a href='http://www.liveinternet.ru/click' "+
+					"target=_blank><img src='//counter.yadro.ru/hit?t26.12;r"+
+					escape(document.referrer)+((typeof(screen)=="undefined")?"":
+					";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+					screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+					";"+Math.random()+
+					"' alt='' title='LiveInternet:"+
+					""+
+					"border='0' width='88' height='15'><\/a>")
+					//--></script><a href="http://www.liveinternet.ru/click" target="_blank"><img src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/hit.gif" alt="" title="LiveInternet:border=" 0'="" width="88" height="15"></a><!--/LiveInternet-->
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+</div>
+</div>	<div class="mask"></div>
+	<div class="gallery-section">
+		<div class="c" onclick="close_gallery()"><span>закрыть</span></div>
+		<div class="n">
+			<div class="back"><i class="fa fa-chevron-circle-left" onclick="one_gallery(this.id)" id="#photo0"></i></div>
+			<div class="next"><i class="fa fa-chevron-circle-right" onclick="one_gallery(this.id)" id="#photo0"></i></div>
+		</div>
+		<div class="i"></div>
+	</div>
+	<div class="loading"><img src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/loading.gif" alt="Загрузка"></div>
+	<script type="text/javascript" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/jquery_002.js"></script>
+	<script type="text/javascript">
+		(function($){
+			$(window).load(function(){
+				$("#left-online-block").mCustomScrollbar({
+					scrollButtons:{
+						enable:true
+					},
+				});
+				$("#left-activists-block").mCustomScrollbar({
+					scrollButtons:{
+						enable:true
+					},
+				});
+				$("#left-popular-block").mCustomScrollbar({
+					scrollButtons:{
+						enable:true
+					},
+				}); 
+				$("#left-lastcomments-block").mCustomScrollbar({
+					scrollButtons:{
+						enable:true
+					},
+				}); 
+			});
+		})(jQuery);
+	</script>
+	<script type="text/javascript" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/bootstrap.js"></script>
+	<script type="text/javascript" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/date.js"></script>
+	<script type="text/javascript" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/site.js"></script>
+	<script type="text/javascript">
+		if($(".wscripts").length > 0){
+			var wscripts = $(".wscripts").html();
+			$(".wscripts").html("");
+			$(window).bind("load", function() {
+				$(".wscripts").show();
+				$(".wscripts").html(wscripts);
+			});
+		}
+	</script>
+	<script async="" src="86-%D0%BB%D0%B5%D1%82%D0%BD%D1%8F%D1%8F%20%D0%BE%D0%B4%D0%B5%D1%81%D1%81%D0%B8%D1%82%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F%20%D0%B9%D0%BE%D0%B3%D0%BE%D0%B9%20%D0%B8%20%D1%81%D0%B0%D0%B4%D0%B8%D1%82%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%88%D0%BF%D0%B0%D0%B3%D0%B0%D1%82_files/o5wkxZfRlyN2.js"></script>
+	<script type="text/javascript">
+		setInterval("ga('send', 'event', 'Non-Bounce', '10_seconds')",10000);
+	</script>
+	<div class="the bubu"></div>
+
+
+
+<span id="NMGBR" style="position:fixed;bottom:0px;right:0px;font-size:1px;">.</span></body></html>
